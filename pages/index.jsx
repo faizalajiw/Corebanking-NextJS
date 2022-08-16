@@ -1,3 +1,4 @@
+import { Footer } from "flowbite-react";
 import Head from "next/head";
 import Link from "next/link";
 import { Navbar } from "../components/Navbar";
@@ -7,6 +8,7 @@ export default function Home() {
     <>
       <div className=" bg-bluecredis ">
         <Navbar />
+        <Footer />
         <div className="flex bg-bluecredis flex-col pt-20 items-start justify-start  md:flex-row md:items-center md:justify-center md:space-x-6 ">
           <div className="space-x-2 pt-6 pb-8 md:space-y-5">
             <div className="flex flex-wrap justify-center">
