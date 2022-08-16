@@ -2,12 +2,13 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Navbar } from "../components/Navbar";
+import { Blog} from "../components/Blog";
 
 export default function Home() {
   return (
     <>
        <div className=" bg-bluecredis">
-      <Navbar />
+      {/* <Navbar /> */}
         <div className="flex bg-bluecredis flex-col pt-20 items-start justify-start md:flex-row 
           md:items-center md:justify-center md:space-x-6">
         <div className="space-x-2 pt-6 pb-40 md:space-y-5 ">
@@ -26,9 +27,23 @@ export default function Home() {
         </div>
         </div>
       </div>
-      <div className="bg-bluecredis pb-20 rounded-b-namikaze"></div>
-
-      <div className="bg-bluecredis pb-20 rounded-b-namikaze"></div>
+      <div className="bg-white pb-20 rounded-b-namikaze">
+        <div className="bg-bluecredis pb-20 rounded-b-namikaze"></div>
+        
+        <div class=" mx-auto max-w-md">
+          
+         <div className=" text-center items-center justify-center">
+          <p className=" text-xl text-slate-900 font-bold leading-normal md:text-2xl">
+            Mengapa Kami?
+          </p>
+          <p className=" text-darkcredis">
+            CREDIS adalah aplikasi core banking system bagi bank umum, BPR, koperasi dan finance. Kami menyediakan fitur seperti Credit Scoring, Verifikasi KYC, Mobile Banking, Laporan Terperinci, dan lainnya.
+          </p>
+        </div>
+        </div>
+      </div>
+      <Blog />
+        
 
         </>
     )

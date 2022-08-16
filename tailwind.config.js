@@ -19,6 +19,7 @@ module.exports = {
         'bubble-gum': '#ff77e9',
         'bermuda': '#78dcca',
         'bluecredis': '#13263C',
+        'darkcredis': '#5C6978'
       },
        borderRadius: {
       'none': '0',
@@ -33,5 +34,5 @@ module.exports = {
     }
     }
   },
-  plugins: [],
+  plugins:[],
 }
