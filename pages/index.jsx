@@ -1,14 +1,36 @@
-import { Footer } from "flowbite-react";
+import Image from 'next/image'
+import Link from 'next/link'
 import Head from "next/head";
-import Link from "next/link";
 import { Navbar } from "../components/Navbar";
+import { TestimoniCard } from '../components/TestimoniCard';
+import { Subs } from '../components/Subs';
+import { Footer } from "../components/Footer";
 
 export default function Home() {
+  const testimoni =[
+    {
+        id:1,
+        image:"img/user testi 1.png",
+        review:"Ini adalah fenomenal, pembayaran yang terintegerasi, sistem pembelian pulsa dan PPOB yang lengkap",
+        star:5
+    },
+    {
+        id:2,
+        image:"img/user testi 2.png",
+        review:"Saya Tidak dapat menjelaskan lagi bagaimana aplikasi ini sangat baik",
+        star:4
+    },
+    {
+        id:3,
+        image:"img/user testi 3.png",
+        review:"Semua telah terdigitalisasi dan cashless saya sangat suka itu semoga dimasa depan lebih simple lagi",
+        star:3
+    }
+]
   return (
     <>
       <div className=" bg-bluecredis ">
         <Navbar />
-        <Footer />
         <div className="flex bg-bluecredis flex-col pt-20 items-start justify-start  md:flex-row md:items-center md:justify-center md:space-x-6 ">
           <div className="space-x-2 pt-6 pb-8 md:space-y-5">
             <div className="flex flex-wrap justify-center">
@@ -30,8 +52,13 @@ export default function Home() {
               lainnya.
             </p>
           </div>
+    
         </div>
+      <TestimoniCard/>
+      <Subs/>
+      <Footer />
       </div>
     </>
   );
+
 }
