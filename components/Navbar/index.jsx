@@ -1,24 +1,56 @@
 import Link from "next/link";
 
 export const Navbar = () => {
-  const menu = ["About", "Features", "Pricing", "Testimonials", "Help"];
   return (
     <>
-      <div className="container max-w-6xl mx-auto flex flex-row items-center pt-9 space-x-36 text-base">
+      <div className="flex flex-row items-center mx-24 pt-3 space-x-48 font-medium">
+        {/* Logo */}
         <div>
-          <img alt="Logo" src="img/Logo.png" className="w-36" />
+          <Link href="/">
+            <img alt="Logo" src="img/Logo.png" className="w-36" />
+          </Link>
         </div>
-        <div className="flex-1 font-normal">
-          <ul className="flex flex-row space-x-10">
-            {menu.map((val, index) => (
-              <li key={index}>{val}</li>
-            ))}
-          </ul>
+
+        {/* Menu */}
+        <div className="flex-1 space-x-10">
+          <Link href="/">
+            <a className="lg:inline-flex lg:w-auto w-full px-4 py-2 rounded-lg text-gray-400 items-center justify-center hover:bg-green-400 hover:text-white ">
+              Home
+            </a>
+          </Link>
+
+          <Link href="/">
+            <a className="lg:inline-flex lg:w-auto w-full px-4 py-2 rounded-lg text-gray-400 items-center justify-center hover:bg-green-400 hover:text-white ">
+              Fitur
+            </a>
+          </Link>
+
+          <Link href="/">
+            <a className="lg:inline-flex lg:w-auto w-full px-4 py-2 rounded-lg text-gray-400 items-center justify-center hover:bg-green-400 hover:text-white ">
+              Blog
+            </a>
+          </Link>
+
+          <Link href="/">
+            <a className="lg:inline-flex lg:w-auto w-full px-4 py-2 rounded-lg text-gray-400 items-center justify-center hover:bg-green-400 hover:text-white ">
+              FAQ
+            </a>
+          </Link>
+
+          <Link href="/">
+            <a className="lg:inline-flex lg:w-auto w-full px-4 py-2 rounded-lg text-gray-400 items-center justify-center hover:bg-green-400 hover:text-white ">
+              Kontak
+            </a>
+          </Link>
         </div>
-        <div className="space-x-7 font-medium">
-          <button className="border border-red-500 text-red-500 py-2 px-7 rounded-full">
-            Daftar
-          </button>
+
+        {/* Button Daftar */}
+        <div>
+          <Link href="/">
+            <button className="border border-green-400 text-green-400 py-2 px-7 rounded-lg hover:bg-green-400 hover:text-white">
+              Daftar
+            </button>
+          </Link>
         </div>
       </div>
     </>
