@@ -8,6 +8,7 @@ module.exports = {
   ],
   theme: {
     extend: {
+     
       colors: {
         transparent: "transparent",
         current: "currentColor",
@@ -20,6 +21,7 @@ module.exports = {
         "bubble-gum": "#ff77e9",
         bermuda: "#78dcca",
         bluecredis: "#13263C",
+        'grey': '#f1f1f1',
       },
       borderRadius: {
         none: "0",
@@ -32,6 +34,7 @@ module.exports = {
         large: "12px",
         namikaze: "100%",
       },
+
     },
   },
 
