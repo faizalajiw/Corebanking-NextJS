@@ -1,7 +1,6 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
-import { Footer } from '../components/Footer';
 
 import Head from "next/head";
 
@@ -55,11 +54,10 @@ export default function Home() {
               lainnya.
             </p>
           </div>
-          <TestimoniCard/>
-          <Subs/>
-          <Footer/>
     
         </div>
+      <TestimoniCard/>
+      <Subs/>
       </div>
     </>
   );
