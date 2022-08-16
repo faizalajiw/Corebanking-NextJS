@@ -1,6 +1,6 @@
 import React from "react";
 
-function index() {
+export const Banner = () => {
   return (
     <div className="flex bg-bluecredis flex-col pt-20 items-start justify-start  md:flex-row md:items-center md:justify-center md:space-x-6 ">
       <div className="space-x-2 pt-6 pb-8 md:space-y-5">
@@ -25,5 +25,3 @@ function index() {
     </div>
   );
 }
-
-export default index;
