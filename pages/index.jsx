@@ -1,6 +1,3 @@
-import Image from "next/image";
-import Link from "next/link";
-import Head from "next/head";
 import { Navbar } from "../components/Navbar";
 import { Banner } from "../components/Banner";
 import { TestimoniCard } from "../components/TestimoniCard";

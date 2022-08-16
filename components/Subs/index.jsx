@@ -8,7 +8,7 @@ export const Subs = () => {
             <p className="pb-6">Dapatkan berbagai promosi dan informasi lainnya</p>
             <form action="" className="relative">
                 <input type="text" placeholder="Email" className=" absolute text-gray-400 bg-white px-5 text-sm rounded w-[460px] h-12"/>
-                <button className="px-5 py-2 rounded bg-bluecredis absolute left-[330px] top-[5px] text-sm">Berlangganan</button>
+                <button className="px-5 py-2 rounded bg-bluecredis absolute left-[330px] top-[6px] text-sm">Berlangganan</button>
             </form>
         </div>
         <div className="container ">
