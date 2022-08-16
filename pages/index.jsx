@@ -6,11 +6,11 @@ import { Navbar } from "../components/Navbar";
 export default function Home() {
   return (
     <>
-       <div className=" bg-bluecredis ">
+       <div className=" bg-bluecredis">
       <Navbar />
-     
-      <div className="flex bg-bluecredis flex-col pt-20 items-start justify-start  md:flex-row md:items-center md:justify-center md:space-x-6 ">
-        <div className="space-x-2 pt-6 pb-8 md:space-y-5">
+        <div className="flex bg-bluecredis flex-col pt-20 items-start justify-start md:flex-row 
+          md:items-center md:justify-center md:space-x-6">
+        <div className="space-x-2 pt-6 pb-40 md:space-y-5 ">
         <div className="flex flex-wrap justify-center">
             <img src="img/mockup laptop & iphone.png" class="p-1  max-w-sm" alt=" Cards Technology"/>
         </div>
@@ -24,8 +24,12 @@ export default function Home() {
           </p>
        
         </div>
-          </div>
-          </div>
+        </div>
+      </div>
+      <div className="bg-bluecredis pb-20 rounded-b-namikaze"></div>
+
+      <div className="bg-bluecredis pb-20 rounded-b-namikaze"></div>
+
         </>
     )
 }
