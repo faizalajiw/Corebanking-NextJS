@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaStar } from 'react-icons/fa'
-export const TestimoniCard = (props) => {
+export const TestimoniCard = () => {
     const testimoni =[
         {
             id:1,
@@ -13,7 +13,7 @@ export const TestimoniCard = (props) => {
         {
             id:2,
             image:"img/user testi 2.png",
-            name: "Martin Sinahaan",
+            name: "Martin Sin",
             job:"Pekerja Lepas",
             review:"Saya Tidak dapat menjelaskan lagi bagaimana aplikasi ini sangat baik",
             star:4
@@ -21,6 +21,8 @@ export const TestimoniCard = (props) => {
         {
             id:3,
             image:"img/user testi 3.png",
+            name: "Martin Sintak",
+            job:"Pekerja Lepas",
             review:"Semua telah terdigitalisasi dan cashless saya sangat suka itu semoga dimasa depan lebih simple lagi",
             star:3
         }
@@ -28,9 +30,9 @@ export const TestimoniCard = (props) => {
   return (
     <div className="bg-grey w-80 h-auto rounded flex-row px-6 py-5">
         <div className="container flex items-center mb-6">
-            <img src={props.image} />
+            <img src="img/user testi 1.png" className=" pr-4"/>
             <div className="container">
-                <h4 className="text-black text-lg font-bold">Martin Siahaan</h4>
+                <h4 className="text-black text-lg font-bold">Martin Sinahaan</h4>
                 <p className="text-black text-xs">Pekerja Lepas</p>
             </div>
         </div>

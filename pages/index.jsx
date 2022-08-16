@@ -7,24 +7,32 @@ import Head from "next/head";
 import { Navbar } from "../components/Navbar";
 import { Subs } from '../components/Subs';
 import { TestimoniCard } from '../components/TestimoniCard';
+import { Footer } from '../components/Footer';
+
 
 export default function Home() {
   const testimoni =[
     {
         id:1,
         image:"img/user testi 1.png",
+        name: "Martin Sinahaan",
+        job:"Pekerja Lepas",
         review:"Ini adalah fenomenal, pembayaran yang terintegerasi, sistem pembelian pulsa dan PPOB yang lengkap",
         star:5
     },
     {
         id:2,
         image:"img/user testi 2.png",
+        name: "Martin Sin",
+        job:"Pekerja Lepas",
         review:"Saya Tidak dapat menjelaskan lagi bagaimana aplikasi ini sangat baik",
         star:4
     },
     {
         id:3,
         image:"img/user testi 3.png",
+        name: "Martin Sintak",
+        job:"Pekerja Lepas",
         review:"Semua telah terdigitalisasi dan cashless saya sangat suka itu semoga dimasa depan lebih simple lagi",
         star:3
     }
@@ -58,6 +66,7 @@ export default function Home() {
         </div>
       <TestimoniCard/>
       <Subs/>
+      <Footer/>
       </div>
     </>
   );
