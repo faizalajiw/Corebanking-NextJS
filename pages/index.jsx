@@ -15,6 +15,7 @@ export default function Home() {
             <TestimoniCard />
             <Subs />
             <Footer />
+        {/* Semangattt */}
       </div>
     </>
   );
