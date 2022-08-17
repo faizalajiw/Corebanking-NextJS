@@ -10,10 +10,10 @@ export const Footer = () => {
         <div className="container text-gray-400">
           <img src="img/Logo.png" alt="" className="mb-4"/>
           <p className=" text-sm mb-7">Jalan Waru 4 No 25, Purwokerto Selatan, Banyumas - Jawa Tengah</p>
-          <div className="container flex flex-row justify-start text-2xl ">
-            <FaWhatsapp className="mr-5" />
-            <FaFacebook className="mr-5" />
-            <FaInstagram className="mr-5" />
+          <div className="container flex flex-row justify-start text-2xl gap-5 ">
+            <FaWhatsapp />
+            <FaFacebook />
+            <FaInstagram />
             <FaLinkedin />
           </div>
         </div>
