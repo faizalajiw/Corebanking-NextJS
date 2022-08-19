@@ -27,28 +27,36 @@ export const testimoni =[
 
 export const fitur = [
     {
-        id:1,
-        image:"img/credit scoring.png",
-        header:"Credit Scoring",
-        title:"Pelayanan untuk mengecek tingkat kelayakan kredit untuk mendapatkan produk seperti Kredit Tanpa Agunan (KTA), Kredit Pemilikan Rumah (KPR), kartu kredit, dan lain-lain."
+        id: 1,
+        image: "img/credit scoring.png",
+        header: "Credit Scoring",
+        title: "Apa yang ditawarkan fitur Credit Scoring?",
+        subtitle: "Pelayanan untuk mengecek tingkat kelayakan kredit untuk mendapatkan produk seperti Kredit Tanpa Agunan (KTA), Kredit Pemilikan Rumah (KPR), kartu kredit, dan lain-lain.",
+        content: ['Meningkatkan kualitas penilaian kelayakan kredit', 'Memperluas akses kredit', 'Mempercepat penyerapan kredit', 'Penyajian data yang lebih akurat dan real-time']
     },
     {
-        id:2,
-        image:"img/kyc.png",
-        header:"Verifikasi KYC",
-        title:"Identifikasi, verifikasi, dan pemantauan transaksi nasabah demi melindungi keamanan data dan kenyamanan layanan finansial Anda."
+        id: 2,
+        image: "img/kyc.png",
+        header: "Verifikasi KYC",
+        title: "Apa yang ditawarkan fitur Verifikasi KYC?",
+        subtitle: "Identifikasi, verifikasi, dan pemantauan transaksi nasabah demi melindungi keamanan data dan kenyamanan layanan finansial Anda.",
+        content: ['Menghindari tindak kejahatan', 'Hemat biaya, cepat dan praktis', 'Menjamin keamanan nasabah', 'Paperless']
     },
     {
-        id:3,
-        image:"img/monile banking.png",
-        header:"Mobile Banking",
-        title:"Cek saldo rekening, transfer dana, dan bayar tagihan Anda dengan lebih mudah dan nyaman melalui M-Banking CREDIS."
+        id: 3,
+        image: "img/monile banking.png",
+        header: "Mobile Banking",
+        title: 'Apa yang ditawarkan oleh M-Banking CREDIS?',
+        subtitle: "Cek saldo rekening, transfer dana, dan bayar tagihan Anda dengan lebih mudah dan nyaman melalui M-Banking CREDIS.",
+        content: ['Proses pembuatan rekening secara online', 'Tidak ada saldo minimum', 'Gratis biaya admin bulanan', 'Tampilan aplikasi ringan & mudah digunakan']
     },
     {
-        id:4,
-        image:"img/laporan terperinci.png",
-        header:"Laporan Terperinci",
-        title:"Semua riwayat transfer, mutasi, dan sistem keuangan Anda direkap secara terperinci dan bisa di unduh."
+        id: 4,
+        image: "img/laporan terperinci.png",
+        header: "Laporan Terperinci",
+        title: 'Apa yang ditawarkan fitur Laporan Terperinci?',
+        subtitle: "Semua riwayat transfer, mutasi, dan sistem keuangan Anda direkap secara terperinci dan bisa di unduh.",
+        content: ['Cek mutasi mingguan atau bulanan', 'Cek riwayat detail transfer', 'Cek riwayat detail kredit', 'Dapat di unduh dalam format PDF']   
     },
 ]
 
