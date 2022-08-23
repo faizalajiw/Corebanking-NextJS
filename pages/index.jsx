@@ -16,7 +16,7 @@ export default function Home() {
             <Banner />
             <Feature/>
             <Blog />
-            <div className="flex justify-center gap-10">
+            <div className="flex justify-center gap-10 flex-wrap">
               {testimoni.map((t) => (
                 <TestimoniCard 
                   name ={t.name}
