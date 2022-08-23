@@ -8,7 +8,7 @@ export const Navbar = () => {
         {/* Logo */}
         <div>
           <Link href="/">
-            <img alt="Logo" src="img/Logo.png" className="w-36" />
+            <img alt="Logo" src="../img/Logo.png" className="w-36" />
           </Link>
         </div>
 
@@ -25,7 +25,7 @@ export const Navbar = () => {
             </a>
           </Link>
 
-          <Link href="/MBanking">
+          <Link href="/fitur/CreditScoring">
             <a className="lg:inline-flex lg:w-auto w-full px-4 py-2 rounded-lg text-gray-400 items-center justify-center hover:bg-green-400 hover:text-white ">
               Fitur
             </a>
