@@ -44,7 +44,7 @@ export const fitur = [
     },
     {
         id: 3,
-        image: "img/monile banking.png",
+        image: "img/mobile banking.png",
         header: "Mobile Banking",
         title: 'Apa yang ditawarkan oleh M-Banking CREDIS?',
         subtitle: "Cek saldo rekening, transfer dana, dan bayar tagihan Anda dengan lebih mudah dan nyaman melalui M-Banking CREDIS.",
