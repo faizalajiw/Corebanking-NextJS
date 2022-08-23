@@ -65,27 +65,31 @@ export default function () {
         </div>
         <div className="mb-3 px-3 md:pr-32 md:mt-3 md:self-center">
           <div className=" flex flex-col gap-5">
-            <div className="container text-gray-500 gap-2 border-2 rounded border-dashed w-full h-32 flex flex-col justify-center content-center px-10 ">
-              <h2 className="font-bold text-xl">
+            <div className="container text-gray-500 gap-2 border-2 rounded border-dashed w-full h-32 flex flex-col justify-center content-center px-10 md:px-5 ">
+              <h2 className="font-bold text-xl md:text-lg">
                 Kirimkan pesan anda pada kami
               </h2>
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 md:gap-1">
                 <GoMail />
-                <p>cazhero@gmail.com</p>
+                <p className=" md:text-sm">cazhero@gmail.com</p>
               </div>
             </div>
-            <div className="container text-gray-500 gap-2 border-2 rounded border-dashed w-full h-32 flex flex-col justify-center content-center px-10 ">
-              <h2 className="font-bold text-xl">Kontak yang dapat dihubungi</h2>
-              <div className="flex items-center gap-2">
+            <div className="container text-gray-500 gap-2 border-2 rounded border-dashed w-full h-32 flex flex-col justify-center content-center px-10 md:px-5 ">
+              <h2 className="font-bold text-xl md:text-lg">
+                Kontak yang dapat dihubungi
+              </h2>
+              <div className="flex items-center gap-2 md:gap-1">
                 <AiOutlinePhone />
-                <p>0821654221</p>
+                <p className=" md:text-sm">0821654221</p>
               </div>
             </div>
-            <div className="container text-gray-500 gap-2 border-2 rounded border-dashed w-full h-32 flex flex-col justify-center content-center px-10 ">
-              <h2 className="font-bold text-xl">Tempat kantor kami</h2>
-              <div className="flex items-center gap-2">
-                <GoLocation className="md:text-2xl" />
-                <p>
+            <div className="container text-gray-500 gap-2 border-2 rounded border-dashed w-full h-32 flex flex-col justify-center content-center px-10 md:px-5 ">
+              <h2 className="font-bold text-xl md:text-lg">
+                Tempat kantor kami
+              </h2>
+              <div className="flex items-center gap-2 md:gap-2">
+                <GoLocation className="md:text-xl" />
+                <p className=" md:text-sm">
                   Jalan Waru 4 No 25, Purwokerto Selatan, Banyumas - Jawa Tengah
                 </p>
               </div>
