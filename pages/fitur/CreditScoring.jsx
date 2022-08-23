@@ -1,7 +1,7 @@
-import { fitur } from "../Data";
-import { Navbar } from "../components/Navbar";
-import { Subs } from "../components/Subs";
-import { Footer } from "../components/Footer";
+import { fitur } from "../../Data";
+import { Navbar } from "../../components/Navbar";
+import { Subs } from "../../components/Subs";
+import { Footer } from "../../components/Footer";
 import { UilCheckCircle } from '@iconscout/react-unicons'
 
 export default function CreditScoring() {
