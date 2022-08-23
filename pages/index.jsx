@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <div className=" bg-bluecredis ">
-            <Navbar />
+            {/* <Navbar /> */}
             <Banner />
             <Feature/>
             <Blog />
