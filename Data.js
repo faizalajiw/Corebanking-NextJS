@@ -28,7 +28,7 @@ export const testimoni =[
 export const fitur = [
     {
         id: 1,
-        image: "img/credit scoring.png",
+        image: "../img/credit scoring.png",
         header: "Credit Scoring",
         title: "Apa yang ditawarkan fitur Credit Scoring?",
         subtitle: "Pelayanan untuk mengecek tingkat kelayakan kredit untuk mendapatkan produk seperti Kredit Tanpa Agunan (KTA), Kredit Pemilikan Rumah (KPR), kartu kredit, dan lain-lain.",
@@ -36,7 +36,7 @@ export const fitur = [
     },
     {
         id: 2,
-        image: "img/kyc.png",
+        image: "../img/kyc.png",
         header: "Verifikasi KYC",
         title: "Apa yang ditawarkan fitur Verifikasi KYC?",
         subtitle: "Identifikasi, verifikasi, dan pemantauan transaksi nasabah demi melindungi keamanan data dan kenyamanan layanan finansial Anda.",
@@ -44,7 +44,7 @@ export const fitur = [
     },
     {
         id: 3,
-        image: "img/monile banking.png",
+        image: "../img/mobile banking.png",
         header: "Mobile Banking",
         title: 'Apa yang ditawarkan oleh M-Banking CREDIS?',
         subtitle: "Cek saldo rekening, transfer dana, dan bayar tagihan Anda dengan lebih mudah dan nyaman melalui M-Banking CREDIS.",
@@ -52,7 +52,7 @@ export const fitur = [
     },
     {
         id: 4,
-        image: "img/laporan terperinci.png",
+        image: "../img/laporan terperinci.png",
         header: "Laporan Terperinci",
         title: 'Apa yang ditawarkan fitur Laporan Terperinci?',
         subtitle: "Semua riwayat transfer, mutasi, dan sistem keuangan Anda direkap secara terperinci dan bisa di unduh.",

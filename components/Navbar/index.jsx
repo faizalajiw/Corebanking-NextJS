@@ -1,9 +1,10 @@
+import React from 'react'
 import Link from "next/link";
 
 export const Navbar = () => {
   return (
     <>
-      <div className="container flex flex-wrap justify-between items-center mx-auto pt-3 space-x-52 font-medium">
+      <div className="flex flex-wrap justify-between items-center px-12 py-3 space-x-52 font-medium bg-bluecredis">
         {/* Logo */}
         <div>
           <Link href="/">
@@ -24,7 +25,7 @@ export const Navbar = () => {
             </a>
           </Link>
 
-          <Link href="/">
+          <Link href="/MBanking">
             <a className="lg:inline-flex lg:w-auto w-full px-4 py-2 rounded-lg text-gray-400 items-center justify-center hover:bg-green-400 hover:text-white ">
               Fitur
             </a>

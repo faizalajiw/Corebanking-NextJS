@@ -3,7 +3,7 @@ import { Banner } from "../components/Banner";
 import { TestimoniCard } from "../components/TestimoniCard";
 import { Subs } from "../components/Subs";
 import { Footer } from "../components/Footer";
-import Blog from "../components/Blog/Index";
+import { Blog } from "../components/Blog";
 import { testimoni } from "../Data";
 import { useState } from "react";
 import { Feature } from "../components/Feature";
