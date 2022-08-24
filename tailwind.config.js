@@ -36,7 +36,8 @@ module.exports = {
         namikaze: "100%",
       },
       backgroundImage: {
-        'hero-pattern': "url('/img/Banner.svg')",
+        'banner-pattern': "url('/img/Banner.svg')",
+        'hero-pattern': "url('/img/Hero.svg')",
       },
     },
   },
