@@ -2,12 +2,6 @@ import React from "react";
 import { Navbar } from "../../components/Navbar";
 import { Footer } from "../../components/Footer";
 import { Subs } from "../../components/Subs";
-import {
-  FaWhatsapp,
-  FaFacebook,
-  FaInstagram,
-  FaLinkedin,
-} from "react-icons/fa";
 import { GoMail, GoLocation } from "react-icons/go";
 import { AiOutlinePhone } from "react-icons/ai";
 import { Map } from "../../components/Map";
