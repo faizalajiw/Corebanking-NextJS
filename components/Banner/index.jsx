@@ -13,10 +13,10 @@ export const Banner = () => {
         </div>
       </div>
       <div className="max-w-md">
-        <p className=" text-xl font-bold leading-normal md:text-2xl  text-center">
+        <p className=" text-xl font-bold text-white leading-normal md:text-2xl  text-center">
           Credis
         </p>
-        <p className="text-center px-14 py-4">
+        <p className="text-center text-white px-14 py-4">
           CREDIS adalah aplikasi core banking system bagi bank umum, BPR,
           koperasi dan finance. Kami menyediakan fitur seperti Credit Scoring,
           Verifikasi KYC, Mobile Banking, Laporan Terperinci, dan lainnya.
@@ -24,4 +24,4 @@ export const Banner = () => {
       </div>
     </div>
   );
-}
+};
