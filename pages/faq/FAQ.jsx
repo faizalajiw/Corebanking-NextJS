@@ -10,7 +10,7 @@ import Link from "next/link";
 export default function FAQ() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="bg-cover bg-center bg-no-repeat bg-hero-pattern py-[10.5rem] px-[31.5]">
         <div className="font-semibold text-4xl text-center text-[#F1F1F1]">
           Hai, Ada Yang Bisa Kami Bantu?
@@ -24,7 +24,7 @@ export default function FAQ() {
       <div className="justify-items-center grid grid-cols-4 gap-[12.5rem] mx-36 mb-28 text-bluecredis">
         {/* Credit Score FAQ */}
         <div className="flex flex-row box-border h-[12.5rem] w-[12.5rem] px-0 py-0 border-none content-center justify-center">
-          <Link href="/">
+          <Link href="/faq/detail/CreditScoring">
             <a>
               <div className="flex box-border text-8xl px-0 py-0 border-none content-center justify-center">
                 <FaCreditCard />
@@ -38,7 +38,7 @@ export default function FAQ() {
 
         {/* MBanking FAQ */}
         <div className="flex flex-row box-border h-[12.5rem] w-[12.5rem] px-0 py-0 border-none content-center justify-center">
-          <Link href="/">
+          <Link href="/faq/detail/MobileBanking">
             <a>
               <div className="flex box-border text-8xl px-0 py-0 border-none content-center justify-center">
                 <MdPhoneAndroid />
@@ -52,7 +52,7 @@ export default function FAQ() {
 
         {/* KYC FAQ */}
         <div className="flex flex-row box-border h-[12.5rem] w-[12.5rem] px-0 py-0 border-none content-center justify-center">
-          <Link href="/">
+          <Link href="/faq/detail/VerifikasiKyc">
             <a>
               <div className="flex box-border text-8xl px-0 py-0 border-none content-center justify-center">
                 <MdFace />
@@ -66,7 +66,7 @@ export default function FAQ() {
 
         {/* Laporan Terperinci FAQ */}
         <div className="flex flex-row box-border h-[12.5rem] w-[12.5rem] px-0 py-0 border-none content-center justify-center">
-          <Link href="/">
+          <Link href="/faq/detail/LaporanTerperinci">
             <a>
               <div className="flex box-border text-8xl px-0 py-0 border-none content-center justify-center">
                 <IoDocumentText />
