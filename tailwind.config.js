@@ -3,14 +3,13 @@
  */
 module.exports = {
   content: [
-     "./node_modules/flowbite-react/**/*.js",
+    "./node_modules/flowbite-react/**/*.js",
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
     "./public/**/*.html",
   ],
   theme: {
     extend: {
-     
       colors: {
         transparent: "transparent",
         current: "currentColor",
@@ -23,7 +22,7 @@ module.exports = {
         "bubble-gum": "#ff77e9",
         bermuda: "#78dcca",
         bluecredis: "#13263C",
-        'grey': '#f1f1f1',
+        grey: "#f1f1f1",
       },
       borderRadius: {
         none: "0",
@@ -36,10 +35,11 @@ module.exports = {
         large: "12px",
         namikaze: "100%",
       },
-
+      backgroundImage: {
+        'hero-pattern': "url('/img/Banner.svg')",
+      },
     },
   },
 
   plugins: [require("flowbite/plugin")],
 };
-  
