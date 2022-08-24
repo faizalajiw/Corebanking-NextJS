@@ -2,20 +2,21 @@ import React from "react";
 import Link from "next/link";
 import { Card } from "flowbite-react";
 
-export const Blog = () => {
+export const Blog = ({ image, header, content, date }) => {
   return (
-    <>
-      <div className="max-w-sm">
-        <Card imgSrc="/image blog 1.png">
-          <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-            Noteworthy technology acquisitions 2021
-          </h5>
-          <p className="font-normal text-gray-700 dark:text-gray-400">
-            Here are the biggest enterprise technology acquisitions of 2021 so
-            far, in reverse chronological order.
-          </p>
-        </Card>
+    <div className=" bg-white">
+      <div className=" w-80 h-auto flex-row px-6 py-5">
+        <div className="container mb-5">
+          <img src={image} alt="" className=" rounded" />
+        </div>
+        <div>
+          <h1 className=" font-bold text-lg mb-3 text-black">{header}</h1>
+          <h2 className=" mb-3 text-xs text-black font-light md:font-normal">
+            {date}
+          </h2>
+          <p className=" text-black font-light md:font-normal">{content}</p>
+        </div>
       </div>
-    </>
+    </div>
   );
-}
+};
