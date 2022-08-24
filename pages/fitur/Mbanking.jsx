@@ -10,7 +10,7 @@ export default function Mbanking() {
       <Navbar />
       <div className="bg-white">
         <div className="py-24">
-          <div className="font-semibold text-center text-bluecredis text-4xl">
+          <div className="font-semibold text-center text-bluecredis text-4xl ">
             {fitur[2].title}
           </div>
         </div>

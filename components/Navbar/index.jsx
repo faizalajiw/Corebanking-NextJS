@@ -2,24 +2,24 @@ import React from "react";
 import { Button, Navbar } from "flowbite-react";
 import Fitur from "../Fitur"
 
-export default function header () {
+export default function header() {
   return (
-      <div className=" bg-bluecredis container xl:px-10">
-      <Navbar color="red" fluid={true} rounded={true}>    
-        
+    <div className=" bg-bluecredis container xl:px-10">
+      <Navbar color="red" fluid={true} rounded={true}>
+
         <Navbar.Brand href="/">
-          <img src="/img/Logo.png" className="mr-3 h-6 sm:h-9" alt="Credis Logo"/>
+          <img src="/img/Logo.png" className="mr-3 h-6 sm:h-9" alt="Credis Logo" />
           <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
             Core Banking
           </span>
         </Navbar.Brand>
         <div className="flex md:order-2">
-            <Button>
-              Daftar
-            </Button>
-        <Navbar.Toggle />    
+          <Button>
+            Daftar
+          </Button>
+          <Navbar.Toggle />
         </div>
-        
+
         <Navbar.Collapse>
           <Navbar.Link href="#" active={true}>
             Home
@@ -37,10 +37,10 @@ export default function header () {
           <Navbar.Link href="#">
             Kontak
           </Navbar.Link>
-          </Navbar.Collapse>
- 
+        </Navbar.Collapse>
+
       </Navbar>
-    </div> 
- 
-    );
+    </div>
+
+  );
 }
