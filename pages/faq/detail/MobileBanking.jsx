@@ -9,9 +9,9 @@ export default function MobileBanking() {
     <div>
       <div className=" bg-white flex flex-col items-center">
         <h1 className=" text-black text-3xl font-bold my-10">Mobile Banking</h1>
-        <div className=" mb-10">
-          {faqMobileBanking.map((m) => (
-            <Accordion title={m.title} subtitle={m.subtitle} />
+        <div className=" mb-20">
+          {faqMobileBanking.map((val) => (
+            <Accordion title={val.title} subtitle={val.subtitle} />
           ))}
         </div>
       </div>
