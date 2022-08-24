@@ -4,7 +4,7 @@ import Fitur from "../Fitur"
 
 export default function header() {
   return (
-    <div className=" bg-bluecredis container xl:px-10">
+    <div className=" container xl:px-10">
       <Navbar color="red" fluid={true} rounded={true}>
 
         <Navbar.Brand href="/">
@@ -41,44 +41,5 @@ export default function header() {
 
       </Navbar>
     </div>
-
-<<<<<<< HEAD
-=======
-          <Link href="/fitur/CreditScoring">
-            <a className="lg:inline-flex lg:w-auto w-full px-4 py-2 rounded-lg text-gray-400 items-center justify-center hover:bg-green-400 hover:text-white ">
-              Fitur
-            </a>
-          </Link>
-
-          <Link href="/">
-            <a className="lg:inline-flex lg:w-auto w-full px-4 py-2 rounded-lg text-gray-400 items-center justify-center hover:bg-green-400 hover:text-white ">
-              Blog
-            </a>
-          </Link>
-
-          <Link href="/faq/FAQ">
-            <a className="lg:inline-flex lg:w-auto w-full px-4 py-2 rounded-lg text-gray-400 items-center justify-center hover:bg-green-400 hover:text-white ">
-              FAQ
-            </a>
-          </Link>
-
-          <Link href="/">
-            <a className="lg:inline-flex lg:w-auto w-full px-4 py-2 rounded-lg text-gray-400 items-center justify-center hover:bg-green-400 hover:text-white ">
-              Kontak
-            </a>
-          </Link>
-        </div>
-
-        {/* Button Daftar */}
-        <div>
-          <Link href="/">
-            <button className="border border-green-400 text-green-400 py-2 px-7 rounded-lg hover:bg-green-400 hover:text-white">
-              Daftar
-            </button>
-          </Link>
-        </div>
-      </div>
-    </>
->>>>>>> 5658265d17b84c09497a261e54d40fc08aaf95ae
   );
 }
