@@ -1,8 +1,8 @@
 import React from "react";
-import { Accordion } from "../../components/AccordionFaq";
-import { Footer } from "../../components/Footer";
-import { Subs } from "../../components/Subs";
-import { faqVerifikasiKyc } from "../../Data";
+import { Accordion } from "../../../components/AccordionFaq";
+import { Footer } from "../../../components/Footer";
+import { Subs } from "../../../components/Subs";
+import { faqVerifikasiKyc } from "../../../Data";
 
 export default function VerifikasiKyc() {
   return (

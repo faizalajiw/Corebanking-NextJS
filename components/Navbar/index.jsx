@@ -37,7 +37,7 @@ export const Navbar = () => {
             </a>
           </Link>
 
-          <Link href="/">
+          <Link href="/faq/FAQ">
             <a className="lg:inline-flex lg:w-auto w-full px-4 py-2 rounded-lg text-gray-400 items-center justify-center hover:bg-green-400 hover:text-white ">
               FAQ
             </a>
