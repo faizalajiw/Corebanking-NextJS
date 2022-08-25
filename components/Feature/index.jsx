@@ -8,13 +8,13 @@ export const Feature = () => {
           <img src="img/credit scoring.png" alt="" className=" w-96" />
         </div>
         <div className="container px-10">
-          <h1 className="text-2xl mb-5 md:mb-10">Credit Scoring</h1>
-          <p className="mb-10 font-light text-justify md:font-normal">
+          <h1 className="text-3xl md:font-bold mb-5 md:mb-10">Credit Scoring</h1>
+          <p className="mb-10 md:text-lg font-light text-justify md:font-normal">
             Pelayanan untuk mengecek tingkat kelayakan kredit untuk mendapatkan
             produk seperti Kredit Tanpa Agunan (KTA), Kredit Pemilikan Rumah
             (KPR), kartu kredit, dan lain-lain.
           </p>
-          <button className="bg-green-400 rounded px-4 py-2 text-xs text-white">
+          <button className="bg-green-400 hover:bg-green-500 text-base rounded px-4 py-2 text-xs text-white">
             Selengkapnya
           </button>
         </div>
@@ -24,12 +24,12 @@ export const Feature = () => {
           <img src="img/mobile banking.png" alt="" className=" w-96" />
         </div>
         <div className="container px-10">
-          <h1 className="text-2xl mb-5 md:mb-10">Mobile Banking</h1>
-          <p className="mb-10 font-light text-justify md:font-normal">
+          <h1 className="text-3xl md:font-bold mb-5 md:mb-10">Mobile Banking</h1>
+          <p className="mb-10 font-light text-justify md:font-normal md:text-lg">
             Cek saldo rekening, transfer dana, dan bayar tagihan Anda dengan
             lebih mudah dan nyaman melalui M-Banking CREDIS.
           </p>
-          <button className="bg-green-400 rounded px-4 py-2 text-xs text-white">
+          <button className="bg-green-400 hover:bg-green-500 text-base rounded px-4 py-2 text-xs text-white">
             Selengkapnya
           </button>
         </div>
@@ -42,12 +42,12 @@ export const Feature = () => {
           <img src="img/kyc.png" alt="" className=" w-96" />
         </div>
         <div className="container px-10">
-          <h1 className="text-2xl mb-5 md:mb-10">Verifikasi KYC</h1>
-          <p className="mb-10 font-light text-justify md:font-normal">
+          <h1 className="text-3xl mb-5 md:mb-10 md:font-bold">Verifikasi KYC</h1>
+          <p className="mb-10 font-light md:text-lg text-justify md:font-normal">
             Identifikasi, verifikasi, dan pemantauan transaksi nasabah demi
             melindungi keamanan data dan kenyamanan layanan finansial Anda.
           </p>
-          <button className="bg-green-400 rounded px-4 py-2 text-xs text-white">
+          <button className="bg-green-400 hover:bg-green-500 text-base rounded px-4 py-2 text-xs text-white">
             Selengkapnya
           </button>
         </div>
@@ -57,12 +57,12 @@ export const Feature = () => {
           <img src="img/laporan terperinci.png" alt="" className=" w-96" />
         </div>
         <div className="container px-10">
-          <h1 className="text-2xl mb-5 md:mb-10">Laporan Terperinci</h1>
-          <p className="mb-10 font-light text-justify md:font-normal">
+          <h1 className="text-3xl md:font-bold mb-5 md:mb-10">Laporan Terperinci</h1>
+          <p className="mb-10 font-light md:text-lg text-justify md:font-normal">
             Semua riwayat transfer, mutasi, dan sistem keuangan Anda direkap
             secara terperinci dan bisa di unduh.
           </p>
-          <button className="bg-green-400 rounded px-4 py-2 text-xs text-white">
+          <button className="bg-green-400 hover:bg-green-500 text-base rounded px-4 py-2 text-xs text-white">
             Selengkapnya
           </button>
         </div>

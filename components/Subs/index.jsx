@@ -16,13 +16,16 @@ export const Subs = () => {
         >
           <input
             type="text"
-            placeholder="Email"
-            className="text-gray-400 bg-white px-5 text-sm rounded h-12 w-72 md:absolute md:w-[460px]"
+            placeholder="Ketikan emailmu di sini"
+            className="font-semibold text-gray-400 bg-white px-5 text-sm rounded h-12 w-72 md:absolute md:w-[460px]"
           />
-          <button className="px-5 py-3 md:py-2 rounded bg-green-400 hover:bg-green-500 top-[6px] left-[158px] text-white text-sm md:absolute md:left-[330px]">
+          <button className="font-semibold px-5 py-3 md:py-2 rounded bg-green-400 hover:bg-green-500 top-[6px] left-[158px] text-white text-sm md:absolute md:left-[320px]">
             Berlangganan
           </button>
         </form>
+      </div>
+      <div className="container hidden md:flex">
+        <img src="../../img/subscribe.png" alt="" className=" w-80" />
       </div>
     </div>
   );
