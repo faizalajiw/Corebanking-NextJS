@@ -5,6 +5,7 @@ import {
   FaInstagram,
   FaLinkedin,
 } from "react-icons/fa";
+import Link from "next/link";
 
 export const Footer = () => {
   return (
@@ -12,41 +13,85 @@ export const Footer = () => {
       <div className="bg-bluecredis flex pt-16 flex-col px-10 gap-6 mb-5 md:flex-row md:px-32 ">
         <div className="container text-gray-400 flex flex-col content-center">
           <div className=" container flex justify-start content-center">
-            <img src="../../img/Logo.png" alt="" className="mb-4 w-40 md:w-58" />
+            <img
+              src="../../img/Logo.png"
+              alt=""
+              className="mb-4 w-40 md:w-58"
+            />
           </div>
           <p className="hover:text-gray-300 text-sm mb-7 text-left">
             Jalan Waru 4 No 25, Purwokerto Selatan, Banyumas - Jawa Tengah
           </p>
           <div className="container flex content-center justify-start text-2xl gap-5 md:flex-row ">
-            <FaWhatsapp className="hover:text-gray-300" />
-            <FaFacebook className="hover:text-gray-300" />
-            <FaInstagram className="hover:text-gray-300" />
-            <FaLinkedin className="hover:text-gray-300" />
+            <Link href="/Error">
+              <a target="_blank" rel="noopener noreferrer">
+                <FaWhatsapp className="hover:text-gray-300" />
+              </a>
+            </Link>
+            <Link href="/Error">
+              <a target="_blank" rel="noopener noreferrer">
+                <FaFacebook className="hover:text-gray-300" />
+              </a>
+            </Link>
+            <Link href="/Error">
+              <a target="_blank" rel="noopener noreferrer">
+                <FaInstagram className="hover:text-gray-300" />
+              </a>
+            </Link>
+            <Link href="/Error">
+              <a target="_blank" rel="noopener noreferrer">
+                <FaLinkedin className="hover:text-gray-300" />
+              </a>
+            </Link>
           </div>
         </div>
         <div className="container text-left md:px-10">
           <h6 className=" pb-6 text-white">Fitur</h6>
           <ul className="text-sm text-gray-400 flex flex-col gap-2 md:gap-4">
-            <li className="hover:text-gray-300">Credit Scoring</li>
-            <li className="hover:text-gray-300">Mobile Banking</li>
-            <li className="hover:text-gray-300">Verifikasi KYC</li>
-            <li className="hover:text-gray-300">Laporan Terperinci</li>
+            <li className="hover:text-gray-300">
+              <Link href="/fitur/CreditScoring">Credit Scoring</Link>
+            </li>
+            <li className="hover:text-gray-300">
+              <Link href="/fitur/Mbanking">Mobile Banking</Link>
+            </li>
+            <li className="hover:text-gray-300">
+              <Link href="/fitur/KYC">Verifikasi KYC</Link>
+            </li>
+            <li className="hover:text-gray-300">
+              <Link href="/fitur/LaporanTerperinci">Laporan Terperinci</Link>
+            </li>
           </ul>
         </div>
         <div className="container text-left md:px-10">
           <h6 className=" pb-6 text-white">Lainnya</h6>
           <ul className="text-sm text-gray-400 flex flex-col gap-2 md:gap-4">
-            <li className="hover:text-gray-300">Syarat & Ketentuan</li>
-            <li className="hover:text-gray-300">Kebijakan & Privasi</li>
-            <li className="hover:text-gray-300">Testimoni</li>
-            <li className="hover:text-gray-300">Kontak Kami</li>
+            <li className="hover:text-gray-300">
+              <Link href="/lainnya/SyaratKetentuan">Syarat & Ketentuan</Link>
+            </li>
+            <li className="hover:text-gray-300">
+              <Link href="/lainnya/KebijakanPrivasi">Kebijakan & Privasi</Link>
+            </li>
+            <li className="hover:text-gray-300">
+              <Link href="/testimoni/Testimoni">Testimoni</Link>
+            </li>
+            <li className="hover:text-gray-300">
+              <Link href="/kontak/Kontak">Kontak Kami</Link>
+            </li>
           </ul>
         </div>
         <div className="container text-sm flex-col justify-center text-left">
           <h6 className=" pb-6 text-white">Get In</h6>
           <div className="container flex content-center justify-center gap-3 flex-col">
-            <img src="/img/App Store.png" alt="" className=" w-36" />
-            <img src="/img/Google Play.png" alt="" className=" w-36" />
+            <Link href="/Error">
+              <a target="_blank" rel="noopener noreferrer">
+                <img src="/img/App Store.png" alt="" className=" w-36" />
+              </a>
+            </Link>
+            <Link href="/Error">
+              <a target="_blank" rel="noopener noreferrer">
+                <img src="/img/Google Play.png" alt="" className=" w-36" />
+              </a>
+            </Link>
           </div>
         </div>
       </div>

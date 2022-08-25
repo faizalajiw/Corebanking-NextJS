@@ -3,7 +3,7 @@ import React from "react";
 export const Section = () => {
   return (
     <>
-      <div className=" text-center px-7 mb-20 text-black md:px-32 md:mb-40">
+      <div className=" text-center px-7 mb-20 text-bluecredis md:px-32 md:mb-40">
         <h1 className=" text-3xl md:text-4xl font-semibold mb-3 md:font-bold">
           Mengapa Kami?
         </h1>

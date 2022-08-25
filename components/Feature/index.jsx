@@ -19,11 +19,9 @@ export const Feature = () => {
             (KPR), kartu kredit, dan lain-lain.
           </p>
           <Link href="/fitur/CreditScoring">
-            <a target="_blank" rel="noopener noreferrer">
-              <button className="bg-green-400 hover:bg-green-500 text-lg rounded px-4 py-2 text-white">
-                Selengkapnya
-              </button>
-            </a>
+            <button className="bg-green-400 hover:bg-green-500 text-lg rounded px-4 py-2 text-white">
+              Selengkapnya
+            </button>
           </Link>
         </div>
       </div>
@@ -41,11 +39,9 @@ export const Feature = () => {
             lebih mudah dan nyaman melalui M-Banking CREDIS.
           </p>
           <Link href="/fitur/Mbanking">
-            <a target="_blank" rel="noopener noreferrer">
-              <button className="bg-green-400 hover:bg-green-500 text-lg rounded px-4 py-2 text-white">
-                Selengkapnya
-              </button>
-            </a>
+            <button className="bg-green-400 hover:bg-green-500 text-lg rounded px-4 py-2 text-white">
+              Selengkapnya
+            </button>
           </Link>
         </div>
         <div className="container justify-center mb-3 hidden md:flex">
@@ -66,11 +62,9 @@ export const Feature = () => {
             melindungi keamanan data dan kenyamanan layanan finansial Anda.
           </p>
           <Link href="/fitur/KYC">
-            <a target="_blank" rel="noopener noreferrer">
-              <button className="bg-green-400 hover:bg-green-500 text-lg rounded px-4 py-2 text-white">
-                Selengkapnya
-              </button>
-            </a>
+            <button className="bg-green-400 hover:bg-green-500 text-lg rounded px-4 py-2 text-white">
+              Selengkapnya
+            </button>
           </Link>
         </div>
       </div>
@@ -92,11 +86,9 @@ export const Feature = () => {
             secara terperinci dan bisa di unduh.
           </p>
           <Link href="/fitur/LaporanTerperinci">
-            <a target="_blank" rel="noopener noreferrer">
-              <button className="bg-green-400 hover:bg-green-500 text-lg rounded px-4 py-2 text-white">
-                Selengkapnya
-              </button>
-            </a>
+            <button className="bg-green-400 hover:bg-green-500 text-lg rounded px-4 py-2 text-white">
+              Selengkapnya
+            </button>
           </Link>
         </div>
         <div className="container  justify-center mb-3 hidden md:flex">

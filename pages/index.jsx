@@ -22,7 +22,7 @@ export default function Home() {
         <JangkauanKami />
       </div>
       <div className="bg-white pb-16">
-        <div className="text-center px-7 mb-20 text-black md:px-32">
+        <div className="text-center px-7 mb-20 text-bluecredis md:px-32">
           <h1 className="text-3xl font-semibold mb-3 md:font-bold">Blog</h1>
           <p className="font-light md:font-normal">
             Perkembangan artikel mengenai Core Banking System
@@ -40,12 +40,12 @@ export default function Home() {
         </div>
         <Link href="blog/Blogpage">
           <div className="flex justify-center mt-10">
-            <a className=" text-black font-bold cursor-pointer">Lihat Semua</a>
+            <a className=" text-bluecredis font-bold cursor-pointer">Lihat Semua</a>
           </div>
         </Link>
       </div>
       <div className="bg-white pb-16 pt-10">
-        <div className="text-center px-7 mb-20 text-black md:px-32">
+        <div className="text-center px-7 mb-20 text-bluecredis md:px-32">
           <h1 className="text-3xl font-semibold mb-3 md:font-bold">
             Testimoni
           </h1>
@@ -66,7 +66,7 @@ export default function Home() {
         </div>
         <Link href="testimoni/Testimoni">
           <div className="flex justify-center mt-10">
-            <a className=" text-black font-bold cursor-pointer">Lihat Semua</a>
+            <a className=" text-bluecredis font-bold cursor-pointer">Lihat Semua</a>
           </div>
         </Link>
       </div>
