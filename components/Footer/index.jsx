@@ -12,20 +12,24 @@ export const Footer = () => {
       <div className="text-gray-400 bg-bluecredis">
         <div className="bg-bluecredis flex pt-16 flex-col px-10 gap-6 mb-5 md:flex-row md:px-32 ">
           <div className="container flex flex-col content-center">
-            <div className=" container flex justify-center content-center md:justify-start">
-              <img src="img/Logo.png" alt="" className="mb-4 w-72 m:w-96" />
+            <div className=" container flex  content-center md:justify-start">
+              <img
+                src="../../img/Logo.png"
+                alt=""
+                className="mb-4 w-72 m:w-96"
+              />
             </div>
-            <p className=" text-sm mb-7 text-center md:text-left">
+            <p className=" text-sm mb-7 text-left md:text-left">
               Jalan Waru 4 No 25, Purwokerto Selatan, Banyumas - Jawa Tengah
             </p>
-            <div className="container flex content-center justify-center text-2xl gap-5 md:flex-row md:justify-start">
+            <div className="container flex content-center justify-start text-2xl gap-5 md:flex-row md:justify-start">
               <FaWhatsapp />
               <FaFacebook />
               <FaInstagram />
               <FaLinkedin />
             </div>
           </div>
-          <div className="container px-10 text-center md:text-left">
+          <div className="container text-left md:px-10 md:text-left">
             <h6 className=" pb-6 text-white">Fitur</h6>
             <ul className="text-sm text-gray-400 flex flex-col gap-2 md:gap-4">
               <li>Credit Scoring</li>
@@ -34,7 +38,7 @@ export const Footer = () => {
               <li>Laporan Terperinci</li>
             </ul>
           </div>
-          <div className="container px-10 text-sm text-center md:text-left">
+          <div className="container text-sm text-left md:px-10  md:text-left">
             <h6 className=" pb-6 text-white">Lainnya</h6>
             <ul className="text-sm text-gray-400 flex flex-col gap-2 md:gap-4">
               <li>Syarat & Ketentuan</li>
@@ -43,10 +47,9 @@ export const Footer = () => {
               <li>Kontak Kami</li>
             </ul>
           </div>
-          <div className="container text-sm flex-col justify-center text-center md:text-left">
+          <div className="container text-sm flex-col justify-center text-left md:text-left">
             <h6 className=" pb-6 text-white">Get In</h6>
-            <h6 className="pb-6">Get In</h6>
-            <div className="container flex content-center justify-center gap-3 md:flex-col">
+            <div className="container flex content-center justify-center gap-3 flex-col">
               <img src="/img/App Store.png" alt="" className=" w-36" />
               <img src="/img/Google Play.png" alt="" className=" w-36" />
             </div>
