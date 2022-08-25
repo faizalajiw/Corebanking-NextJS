@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-import React from 'react'
-
-export default function FAQ() {
-  return (
-    <div>FAQ</div>
-  )
-=======
 import { Footer } from "../../components/Footer";
 import { Navbar } from "../../components/Navbar";
 import { Subs } from "../../components/Subs";
@@ -18,7 +10,7 @@ import Link from "next/link";
 export default function FAQ() {
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <div className="bg-cover bg-center bg-no-repeat bg-banner-pattern py-32 md:py-[10.5rem] px-[31.5]">
         <div className="text-2xl md:text-4xl font-semibold text-center text-[#F1F1F1]">
           Hai, Ada Yang Bisa Kami Bantu?
@@ -90,5 +82,4 @@ export default function FAQ() {
       <Footer />
     </>
   );
->>>>>>> 5658265d17b84c09497a261e54d40fc08aaf95ae
 }
