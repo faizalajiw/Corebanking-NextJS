@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+import React from 'react'
+
+export default function FAQ() {
+  return (
+    <div>FAQ</div>
+  )
+=======
 import { Footer } from "../../components/Footer";
 import { Navbar } from "../../components/Navbar";
 import { Subs } from "../../components/Subs";
@@ -82,4 +90,5 @@ export default function FAQ() {
       <Footer />
     </>
   );
+>>>>>>> 5658265d17b84c09497a261e54d40fc08aaf95ae
 }
