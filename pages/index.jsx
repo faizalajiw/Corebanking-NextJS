@@ -19,6 +19,7 @@ export default function Home() {
         <Section />
         <Feature />
       </div>
+      <div className=" bg-jangkauan-pattern bg-cover bg-center bg-no-repeat"></div>
       <div className=" bg-white pb-16 pt-10">
         <div className=" text-center px-7 mb-20 text-black md:px-32">
           <h1 className=" text-3xl font-semibold mb-3 md:font-bold">Blog</h1>
