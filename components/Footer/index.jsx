@@ -18,7 +18,7 @@ export const Footer = () => {
             <p className=" text-sm mb-7 text-center md:text-left">
               Jalan Waru 4 No 25, Purwokerto Selatan, Banyumas - Jawa Tengah
             </p>
-            <div className="container flex content-center justify-center text-2xl gap-5 md:flex-row md:justify-start">
+            <div className="container flex content-center justify-center text-2xl gap-5 md:flex-col md:justify-start ">
               <FaWhatsapp />
               <FaFacebook />
               <FaInstagram />
