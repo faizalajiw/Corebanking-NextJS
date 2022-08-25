@@ -3,7 +3,7 @@ import { Header } from "../../components/Header";
 import { Subs } from "../../components/Subs";
 import { syaratKetentuan } from "../../Data";
 
-export default function SyaratKetentuan() {
+export default function KebijakanPrivasi() {
   return (
     <>
       <Header />
@@ -16,12 +16,12 @@ export default function SyaratKetentuan() {
         </p>
       </div>
 
-      <div className="box-border border-1 shadow-lg shadow-gray-200 rounded-lg h-auto w-auto mx-32 my-24">
+      <div className="box-border border-1 shadow-lg shadow-gray-200 rounded-lg h-auto w-auto mx-10 my-10 md:mx-32 md:my-24">
         <div className="text-[#1E1E1E]">
           {syaratKetentuan.map((val, index) => (
-            <div className="space-y-5 px-14 py-10" key={index}>
-              <div className="font-medium text-2xl">{val.title}</div>
-              <p className="text-lg">{val.content}</p>
+            <div className="space-y-4 md:space-y-5 px-10 md:px-14 py-10" key={index}>
+              <div className="font-medium text-lg md:text-2xl">{val.title}</div>
+              <p className="text-justify text-sm md:text-lg">{val.content}</p>
             </div>
           ))}
         </div>
