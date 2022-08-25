@@ -1,4 +1,4 @@
-import Navbar from "../components/Navbar";
+import { Header } from "../components/Header";
 import { Banner } from "../components/Banner";
 import { TestimoniCard } from "../components/TestimoniCard";
 import { Subs } from "../components/Subs";
@@ -13,12 +13,11 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <Navbar />
+      <Header />
       <Banner />
       <div className=" bg-white py-20 md:py-40">
         <Section />
         <Feature />
-
       </div>
       <div className=" bg-jangkauan-pattern bg-cover bg-center bg-no-repeat"></div>
       <div className=" bg-white pb-16 pt-10">
