@@ -21,7 +21,7 @@ export const Header = () => {
         </div>
 
         <Navbar.Collapse>
-          <Navbar.Link href="#" active={true}>
+          <Navbar.Link href="/" active={true}>
             Home
           </Navbar.Link>
           <Navbar.Link >
@@ -31,10 +31,10 @@ export const Header = () => {
           <Navbar.Link href="/blog/Blogpage">
             Blog
           </Navbar.Link>
-          <Navbar.Link href="/faq">
+          <Navbar.Link href="/faq/FAQ">
             Faq
           </Navbar.Link>
-          <Navbar.Link href="/kontak">
+          <Navbar.Link href="/kontak/Kontak">
             Kontak
           </Navbar.Link>
         </Navbar.Collapse>
