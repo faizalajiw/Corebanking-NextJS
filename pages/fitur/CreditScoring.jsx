@@ -1,7 +1,7 @@
 import { fitur } from "../../Data";
 import { Subs } from "../../components/Subs";
 import { Footer } from "../../components/Footer";
-import { HiOutlineCheckCircle } from "react-icons/hi"
+import { HiOutlineCheckCircle } from "react-icons/hi";
 import { Header } from "../../components/Header";
 
 export default function CreditScoring() {
@@ -27,7 +27,9 @@ export default function CreditScoring() {
                 return (
                   <div className="flex space-x-2 my-5" key={index}>
                     <HiOutlineCheckCircle className="flex-none text-2xl md:text-3xl text-[#47BE7D]" />
-                    <div className="flex text-md text-justify md:text-xl">{val}</div>
+                    <div className="flex text-md text-justify md:text-xl">
+                      {val}
+                    </div>
                   </div>
                 );
               })}
@@ -36,7 +38,11 @@ export default function CreditScoring() {
 
           {/* Col 2 */}
           <div>
-            <img src={fitur[0].image} alt="Credit Score" className="w-auto justify-center lg:w-auto md:justify-items-center" />
+            <img
+              src={fitur[0].image}
+              alt="Credit Score"
+              className="w-auto justify-center lg:w-auto md:justify-items-center"
+            />
           </div>
         </div>
       </div>
