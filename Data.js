@@ -87,53 +87,56 @@ export const fitur = [
   },
 ];
 
-export const blog = [ 
-    {
-        id : 1,
-        image : "../../img/image blog 1.png",
-        header : "Apa itu Core Banking System? Berikut Penjelasannya",
-        content : "Core Banking system sendiri adalah jantung dari sebuah bank, karena sistem ini digunakan untuk memproses loan, dan di dalamnya tersimpan data nasabah serta semua transaksi sejak nasabah membuka rekening di bank sampai menutupnya.",
-        date : "Di Publish 21 Juli 2022"
-    },
-    {
-        id : 2,
-        image : "../../img/image blog 2.png",
-        header : "BI dan Kemenkeu Sepakati Pengembangan CBS",
-        content : "Bank Indonesia (BI) dan Kementerian Keuangan (Kemenkeu) menyepakati pengembangan aplikasi Core Banking System (CBS) oleh BI dan interkoneksi dengan sistem di Kemenkeu di tahun 2021, sebagai salah satu topik strategis.",
-        date : "Di Publish 7 Desember 2021"
-    },
-    {
-        id : 3,
-        image : "../../img/image blog 3.png",
-        header : "Integrasi Core Banking Permudah Layanan Perbankan",
-        content : "Seiring dengan semakin meningkatnya kebutuhan kecepatan dalam perbankan, core banking yang ada saat ini semakin berbenah dan ditingkatkan pula. Sistem pada perbankan konvensional saat ini.",
-        date : "Di Publish 24 November 2021"
-    },
-    {
-        id : 4,
-        image : "../../img/image blog 4.png",
-        header : "Sejumlah Bank Swasta Tingkatkan Core Banking System",
-        content : "Sejumlah bank umum swasta nasional (BUSN) berupaya meningkatkan core banking system mereka untuk meningkatkan pelayanan kepada nasabah dan memperkuat komptensi di bidang digital. Presiden Direktur PT Bank CIMB Niaga Tbk (CIMB Niaga) Tigor M Siahaan mengatakan, saat ini bank yang ia pimpin secara resmi menggunakan core banking system bernama 1Platform (1P).",
-        date : "Di Publish 24 Februari 2022"
-    },
-    {
-        id : 5,
-        image : "../../img/image blog 4.png",
-        header : "Sejumlah Bank Swasta Tingkatkan Core Banking System",
-        content : "Sejumlah bank umum swasta nasional (BUSN) berupaya meningkatkan core banking system mereka untuk meningkatkan pelayanan kepada nasabah dan memperkuat komptensi di bidang digital. Presiden Direktur PT Bank CIMB Niaga Tbk (CIMB Niaga) Tigor M Siahaan mengatakan, saat ini bank yang ia pimpin secara resmi menggunakan core banking system bernama 1Platform (1P).",
-        date : "Di Publish 24 Februari 2022"
-    }
-    ,
-    {
-        id : 6,
-        image : "../../img/image blog 4.png",
-        header : "Sejumlah Bank Swasta Tingkatkan Core Banking System",
-        content : "Sejumlah bank umum swasta nasional (BUSN) berupaya meningkatkan core banking system mereka untuk meningkatkan pelayanan kepada nasabah dan memperkuat komptensi di bidang digital. Presiden Direktur PT Bank CIMB Niaga Tbk (CIMB Niaga) Tigor M Siahaan mengatakan, saat ini bank yang ia pimpin secara resmi menggunakan core banking system bernama 1Platform (1P).",
-        date : "Di Publish 24 Februari 2022"
-    },
-    
-
-]
+export const blog = [
+  {
+    id: 1,
+    image: "../../img/image blog 1.png",
+    header: "Apa itu Core Banking System? Berikut Penjelasannya",
+    content:
+      "Core Banking system sendiri adalah jantung dari sebuah bank, karena sistem ini digunakan untuk memproses loan, dan di dalamnya tersimpan data nasabah serta semua transaksi sejak nasabah membuka rekening di bank sampai menutupnya.",
+    date: "Di Publish 21 Juli 2022",
+  },
+  {
+    id: 2,
+    image: "../../img/image blog 2.png",
+    header: "BI dan Kemenkeu Sepakati Pengembangan CBS",
+    content:
+      "Bank Indonesia (BI) dan Kementerian Keuangan (Kemenkeu) menyepakati pengembangan aplikasi Core Banking System (CBS) oleh BI dan interkoneksi dengan sistem di Kemenkeu di tahun 2021, sebagai salah satu topik strategis.",
+    date: "Di Publish 7 Desember 2021",
+  },
+  {
+    id: 3,
+    image: "../../img/image blog 3.png",
+    header: "Integrasi Core Banking Permudah Layanan Perbankan",
+    content:
+      "Seiring dengan semakin meningkatnya kebutuhan kecepatan dalam perbankan, core banking yang ada saat ini semakin berbenah dan ditingkatkan pula. Sistem pada perbankan konvensional saat ini.",
+    date: "Di Publish 24 November 2021",
+  },
+  {
+    id: 4,
+    image: "../../img/image blog 4.png",
+    header: "Sejumlah Bank Swasta Tingkatkan Core Banking System",
+    content:
+      "Sejumlah bank umum swasta nasional (BUSN) berupaya meningkatkan core banking system mereka untuk meningkatkan pelayanan kepada nasabah dan memperkuat komptensi di bidang digital. Presiden Direktur PT Bank CIMB Niaga Tbk (CIMB Niaga) Tigor M Siahaan mengatakan, saat ini bank yang ia pimpin secara resmi menggunakan core banking system bernama 1Platform (1P).",
+    date: "Di Publish 24 Februari 2022",
+  },
+  {
+    id: 5,
+    image: "../../img/image blog 4.png",
+    header: "Sejumlah Bank Swasta Tingkatkan Core Banking System",
+    content:
+      "Sejumlah bank umum swasta nasional (BUSN) berupaya meningkatkan core banking system mereka untuk meningkatkan pelayanan kepada nasabah dan memperkuat komptensi di bidang digital. Presiden Direktur PT Bank CIMB Niaga Tbk (CIMB Niaga) Tigor M Siahaan mengatakan, saat ini bank yang ia pimpin secara resmi menggunakan core banking system bernama 1Platform (1P).",
+    date: "Di Publish 24 Februari 2022",
+  },
+  {
+    id: 6,
+    image: "../../img/image blog 4.png",
+    header: "Sejumlah Bank Swasta Tingkatkan Core Banking System",
+    content:
+      "Sejumlah bank umum swasta nasional (BUSN) berupaya meningkatkan core banking system mereka untuk meningkatkan pelayanan kepada nasabah dan memperkuat komptensi di bidang digital. Presiden Direktur PT Bank CIMB Niaga Tbk (CIMB Niaga) Tigor M Siahaan mengatakan, saat ini bank yang ia pimpin secara resmi menggunakan core banking system bernama 1Platform (1P).",
+    date: "Di Publish 24 Februari 2022",
+  },
+];
 
 export const mitra = [
   {
@@ -360,8 +363,7 @@ export const syaratKetentuan = [
   {
     id: 1,
     title: "Ketentuan",
-    content:
-      `Kami, PT Credis Teknologi Inovasi, suatu perseroan terbatas yang didirikan berdasarkan hukum negara Republik Indonesia, memiliki kantor terdaftar di [Jalan Waru 4 No 25, Perumahan Tanjung Elok, Purwokerto Selatan, Banyumas] (selanjutnya disebut sebagai "Credis" atau “Kami”).
+    content: `Kami, PT Credis Teknologi Inovasi, suatu perseroan terbatas yang didirikan berdasarkan hukum negara Republik Indonesia, memiliki kantor terdaftar di [Jalan Waru 4 No 25, Perumahan Tanjung Elok, Purwokerto Selatan, Banyumas] (selanjutnya disebut sebagai "Credis" atau “Kami”).
 
       Syarat dan ketentuan ini (“Ketentuan”) merupakan suatu perjanjian hukum antara anda dan Credis, untuk mengatur mengenai syarat dan ketentuan untuk penggunaan Layanan Credis oleh anda. Dalam Ketentuan ini, Layanan Credis berarti penjualan dan penyediaan suatu fitur, teknologi, benda, produk, perangkat lunak, perangkat keras, dan produk-produk, jasa-jasa, atau fungsi lain yang diberikan oleh produk atau jasa tersebut oleh Credis, termasuk aplikasi Credis POS iOS dan Android (“Aplikasi”) dan Credis.id (“Website”) (secara bersama-sama disebut sebagai “Layanan”).
       
@@ -410,8 +412,7 @@ export const syaratKetentuan = [
   {
     id: 6,
     title: "Hak Kekayaan Intelektual",
-    content:
-      `Anda setuju bahwa konten dan segala material lain yang terdapat dalam Layanan, termasuk, namun tanpa batasam hak cipta dan hak kekayaan intelektual lainnya dalam karya seni, grafis, fotografi, teks, video, dan cuplikan suara, merek dagang dan logo yang ada dalam Situs (secara bersama-sama disebut “Konten”) dimiliki oleh Credis. Anda setuju untuk tidak mengajukan keberatan atau melakukan apapun yang tidak sesuai dengan kepemilikan tersebut. Anda tidak diperkenankan untuk menyalin, mereproduksi, menggunakan kembali, mentransmisikan kembali, mengadaptasi, mengumukan, memajang, memuat, mengunggah, membagikan, mengubah, menyiarkan, atau membuat karya turunan dari Konten dengan cara apapun, termasuk untuk keperluan publik atau komersial apapun, tanpa persetujuan tertulis sebelumnya dari Credis. Anda tidak diberikan lisensi sehubungan dengan Konten yang terdapat dalam Situs. Berdasarkan diskresi tunggal, Credis, pihak terafiliasi Credis, atau pemberi lisensi Credis dapat melakukan upaya-upaya untuk melaksanakan hak kekayaan intelektual mereka sejauh mungkin yang diperkenankan hukum, termasuk untuk melaksanakan proses peradilan kriminal.
+    content: `Anda setuju bahwa konten dan segala material lain yang terdapat dalam Layanan, termasuk, namun tanpa batasam hak cipta dan hak kekayaan intelektual lainnya dalam karya seni, grafis, fotografi, teks, video, dan cuplikan suara, merek dagang dan logo yang ada dalam Situs (secara bersama-sama disebut “Konten”) dimiliki oleh Credis. Anda setuju untuk tidak mengajukan keberatan atau melakukan apapun yang tidak sesuai dengan kepemilikan tersebut. Anda tidak diperkenankan untuk menyalin, mereproduksi, menggunakan kembali, mentransmisikan kembali, mengadaptasi, mengumukan, memajang, memuat, mengunggah, membagikan, mengubah, menyiarkan, atau membuat karya turunan dari Konten dengan cara apapun, termasuk untuk keperluan publik atau komersial apapun, tanpa persetujuan tertulis sebelumnya dari Credis. Anda tidak diberikan lisensi sehubungan dengan Konten yang terdapat dalam Situs. Berdasarkan diskresi tunggal, Credis, pihak terafiliasi Credis, atau pemberi lisensi Credis dapat melakukan upaya-upaya untuk melaksanakan hak kekayaan intelektual mereka sejauh mungkin yang diperkenankan hukum, termasuk untuk melaksanakan proses peradilan kriminal.
 
       Anda memberikan Credis, anak perusahaan, afiliasi, dan penerus hak Credis suatu hak yang bebas royalti, tidak dapat dibatalkan, dan berlaku terus menerus (termasuk untuk keperluan komersial) untuk menggunakan informasi dan/atau data yang diperoleh Credis melalui penggunaan Layanan oleh Anda, dengan ketentuan bahwa kami akan mengaggregasi atau melakukan anonimisasi informasi atau data tersebut sebelum menggunakannya.
       
@@ -424,8 +425,7 @@ export const syaratKetentuan = [
   {
     id: 7,
     title: "Lain-lain",
-    content:
-      `Kami menyediakan fasilitas layanan pelanggan yang tersedia (harap cantumkan hari/jam) dan dapat diakses melalui:
+    content: `Kami menyediakan fasilitas layanan pelanggan yang tersedia (harap cantumkan hari/jam) dan dapat diakses melalui:
 
       Telepon: 0821654221
       
