@@ -18,9 +18,21 @@ export default function Home() {
       <div className=" bg-white py-20 md:py-40">
         <Section />
         <Feature />
+
+        <section>
+          <div className="container flex flex-col p-10  bg-[url('/img/jangkauanBG.png')] pt-10 pb-10  bg-cover h-72 md:h-[1024px]">
+            <div className=" text-center font-bold">
+              <h1>Sebarapa Luas Jangkauan Kami?</h1>
+            </div>
+            <div className=" md:px-96 text-center">
+              <p>Kami selalu memperluas ekspansi pasar kami keseluruh Indonesia dengan itu dunia keuangan lebih aman dan terjaga</p>
+            </div>
+          </div>
+        </section>
+
       </div>
       <div className=" bg-jangkauan-pattern bg-cover bg-center bg-no-repeat"></div>
-      <div className=" bg-white pb-16 pt-10">
+      <div className=" bg-white pb-16">
         <div className=" text-center px-7 mb-20 text-black md:px-32">
           <h1 className=" text-3xl font-semibold mb-3 md:font-bold">Blog</h1>
           <p className=" font-light md:font-normal">
