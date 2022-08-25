@@ -28,13 +28,13 @@ export const Header = () => {
             <Fitur />
           </Navbar.Link>
 
-          <Navbar.Link href="#">
+          <Navbar.Link href="/blog/Blogpage">
             Blog
           </Navbar.Link>
-          <Navbar.Link href="#">
+          <Navbar.Link href="/faq">
             Faq
           </Navbar.Link>
-          <Navbar.Link href="#">
+          <Navbar.Link href="/kontak">
             Kontak
           </Navbar.Link>
         </Navbar.Collapse>
