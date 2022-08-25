@@ -8,16 +8,16 @@ export default function fitur () {
         inline={true}
       label={" Fitur "}>
   <Dropdown.Item>
-    Dashboard
+    Credit Scoring
   </Dropdown.Item>
   <Dropdown.Item>
-    Settings
+    Mobile Banking
   </Dropdown.Item>
   <Dropdown.Item>
-    Earnings
+    Verifikasi KYC
   </Dropdown.Item>
   <Dropdown.Item>
-    Sign out
+    Laporan Terperinci
   </Dropdown.Item>
 </Dropdown>
 

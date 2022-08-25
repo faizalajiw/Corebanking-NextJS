@@ -15,37 +15,36 @@ export const Footer = () => {
             <div className=" container flex justify-center content-center md:justify-start">
               <img src="img/Logo.png" alt="" className="mb-4 w-72 m:w-96" />
             </div>
-            <p className=" text-sm mb-7 text-center md:text-left">
+            <p className="hover:text-gray-300 text-sm mb-7 text-center md:text-left">
               Jalan Waru 4 No 25, Purwokerto Selatan, Banyumas - Jawa Tengah
             </p>
             <div className="container flex content-center justify-center text-2xl gap-5 md:flex-row md:justify-start">
-              <FaWhatsapp />
-              <FaFacebook />
-              <FaInstagram />
-              <FaLinkedin />
+              <div className = "hover:text-gray-300"><FaWhatsapp /></div>
+              <div className = "hover:text-gray-300"><FaFacebook /></div>
+              <div className = "hover:text-gray-300"><FaInstagram /></div>
+              <div className = "hover:text-gray-300"><FaLinkedin /></div>
             </div>
           </div>
           <div className="container px-10 text-center md:text-left">
             <h6 className=" pb-6 text-white">Fitur</h6>
             <ul className="text-sm text-gray-400 flex flex-col gap-2 md:gap-4">
-              <li>Credit Scoring</li>
-              <li>Mobile Banking</li>
-              <li>Verifikasi KYC</li>
-              <li>Laporan Terperinci</li>
+              <li className="hover:text-gray-300">Credit Scoring</li>
+              <li className="hover:text-gray-300">Mobile Banking</li>
+              <li className="hover:text-gray-300">Verifikasi KYC</li>
+              <li className="hover:text-gray-300">Laporan Terperinci</li>
             </ul>
           </div>
           <div className="container px-10 text-sm text-center md:text-left">
             <h6 className=" pb-6 text-white">Lainnya</h6>
             <ul className="text-sm text-gray-400 flex flex-col gap-2 md:gap-4">
-              <li>Syarat & Ketentuan</li>
-              <li>Kebijakan & Privasi</li>
-              <li>Testimoni</li>
-              <li>Kontak Kami</li>
+              <li className="hover:text-gray-300">Syarat & Ketentuan</li>
+              <li className="hover:text-gray-300">Kebijakan & Privasi</li>
+              <li className="hover:text-gray-300">Testimoni</li>
+              <li className="hover:text-gray-300">Kontak Kami</li>
             </ul>
           </div>
           <div className="container text-sm flex-col justify-center text-center md:text-left">
             <h6 className=" pb-6 text-white">Get In</h6>
-            <h6 className="pb-6">Get In</h6>
             <div className="container flex content-center justify-center gap-3 md:flex-col">
               <img src="/img/App Store.png" alt="" className=" w-36" />
               <img src="/img/Google Play.png" alt="" className=" w-36" />
