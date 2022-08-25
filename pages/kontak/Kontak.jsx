@@ -1,15 +1,15 @@
 import React from "react";
-import { Navbar } from "../../components/Navbar";
 import { Footer } from "../../components/Footer";
 import { Subs } from "../../components/Subs";
 import { GoMail, GoLocation } from "react-icons/go";
 import { AiOutlinePhone } from "react-icons/ai";
 import { Map } from "../../components/Map";
+import { Header } from "../../components/Header";
 
 export default function () {
   return (
     <div className="bg-white">
-      {/* <Navbar/> */}
+      <Header />
       <div className=" md:flex">
         <div className="my-3 px-3 flex flex-col gap-3 md:flex-1 md:pl-32">
           <div className="container flex flex-col md:flex-none md:w-[700px]">
