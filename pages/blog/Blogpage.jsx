@@ -1,8 +1,10 @@
 import React from "react";
 import { Header } from "../../components/Header";
 import { Footer } from "../../components/Footer";
+import { Blog } from "../../components/Blog";
+import { blog } from "../../Data";
 
-export default function Blog() {
+export default function Blogpage() {
   return (
     <div>
       <Header />
@@ -10,7 +12,7 @@ export default function Blog() {
         <div className="flex justify-center text-black font-semibold md:text-3xl text-2xl pt-4">
           Blog
         </div>
-        <div className="flex justify-center text-black text pt-3 text-center px-16 ">
+        <div className="flex justify-center text-black text pt-3 text-center px-16  font-light md:font-normal">
           Perkembangan Sistem Mengenai Core Banking System
         </div>
         <div className="flex flex-col md:flex-row px-10 space-x-1">
@@ -35,7 +37,16 @@ export default function Blog() {
           </div>
         </div>
 
-
+        <div className=" flex flex-col gap-5 justify-center items-center md:items-start md:flex-row md:flex-wrap md:gap-14 md:px-32 pt-10">
+          {blog.slice(0, 6).map((b) => (
+            <Blog
+              image={b.image}
+              header={b.header}
+              content={b.content}
+              date={b.date}
+            />
+          ))}
+        </div>
       </section>
       <Footer />
     </div>

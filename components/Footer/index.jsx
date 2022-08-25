@@ -12,7 +12,7 @@ export const Footer = () => {
       <div className="bg-bluecredis flex pt-16 flex-col px-10 gap-6 mb-5 md:flex-row md:px-32 ">
         <div className="container text-gray-400 flex flex-col content-center">
           <div className=" container flex justify-start content-center">
-            <img src="../../img/Logo.png" alt="" className="mb-4 w-40 md:w-96" />
+            <img src="../../img/Logo.png" alt="" className="mb-4 w-40 md:w-58" />
           </div>
           <p className="hover:text-gray-300 text-sm mb-7 text-left">
             Jalan Waru 4 No 25, Purwokerto Selatan, Banyumas - Jawa Tengah

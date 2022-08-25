@@ -37,7 +37,7 @@ export default function Home() {
             />
           ))}
         </div>
-        <Link href="blog/Blog">
+        <Link href="blog/Blogpage">
           <div className="flex justify-center mt-10">
             <a className=" text-black font-bold cursor-pointer">Lihat Semua</a>
           </div>
