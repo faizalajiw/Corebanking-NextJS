@@ -293,26 +293,41 @@ export const kebijakan = [
   {
     id: 2,
     title: "Pernyataan Privasi",
-    content:
-      "Melindungi privasi Anda sangat penting bagi Credis. Kami menghargai privasi Anda dan kami berkomitmen untuk melindungi setiap dan semua informasi pribadi yang mungkin diberikan oleh Anda dan oleh karena itu akan memastikan perlakuan yang adil, keandalan, kerahasiaan, dan keamanan informasi pribadi Anda. Kami merancang Kebijakan Privasi ini untuk menjelaskan kepada Anda bagaimana kami mengumpulkan, menggunakan, dan membagikan informasi pribadi Anda. “Informasi pribadi” berarti informasi apa pun yang dapat digunakan untuk mengidentifikasi Anda secara pribadi (tidak termasuk informasi apa pun yang telah dikumpulkan atau dibuat anonim) dan sebagaimana ditafsirkan berdasarkan Peraturan Menteri Komunikasi dan Teknologi Informasi No. 20 tahun 2016 tentang Perlindungan Data Pribadi dalam Sistem Elektronik (selanjutnya disebut sebagai “Peraturan 20/2016“).\\n\\nInformasi yang terdapat dalam Kebijakan Privasi ini telah dipersiapkan sehubungan dan sesuai dengan peraturan yang berlaku dan untuk digunakan khusus oleh Credis. dan afiliasinya dan/atau penerima pengalihannya.",
+    content: `Melindungi privasi Anda sangat penting bagi Credis. Kami menghargai privasi Anda dan kami berkomitmen untuk melindungi setiap dan semua informasi pribadi yang mungkin diberikan oleh Anda dan oleh karena itu akan memastikan perlakuan yang adil, keandalan, kerahasiaan, dan keamanan informasi pribadi Anda. Kami merancang Kebijakan Privasi ini untuk menjelaskan kepada Anda bagaimana kami mengumpulkan, menggunakan, dan membagikan informasi pribadi Anda. “Informasi pribadi” berarti informasi apa pun yang dapat digunakan untuk mengidentifikasi Anda secara pribadi (tidak termasuk informasi apa pun yang telah dikumpulkan atau dibuat anonim) dan sebagaimana ditafsirkan berdasarkan Peraturan Menteri Komunikasi dan Teknologi Informasi No. 20 tahun 2016 tentang Perlindungan Data Pribadi dalam Sistem Elektronik (selanjutnya disebut sebagai “Peraturan 20/2016“). 
+      \n\nInformasi yang terdapat dalam Kebijakan Privasi ini telah dipersiapkan sehubungan dan sesuai dengan peraturan yang berlaku dan untuk digunakan khusus oleh Credis. dan afiliasinya dan/atau penerima pengalihannya.`,
   },
   {
     id: 3,
     title: "Penerimaan dan Persetujuan Anda",
-    content:
-      "Anda wajib membaca Kebijakan Privasi kami dari waktu ke waktu. Dengan mengakses atau menggunakan layanan atau produk kami serta Situs Web kami, hal tersebut akan dianggap sebagai persetujuan dan penerimaan Anda terhadap Kebijakan Privasi kami, dengan demikian, Anda setuju untuk terikat pada setiap ketentuan yang tercantum dalam Kebijakan Privasi kami. Jika Anda tidak setuju dengan ketentuan atau ketentuan apa pun dalam Kebijakan Privasi ini, jangan gunakan layanan atau produk kami serta Situs Web kami. [Dengan mengirimkan pemberitahuan ke email Anda], kami memiliki hak untuk merevisi dan/atau memperbarui Kebijakan Privasi kami dari waktu ke waktu dan Anda setuju untuk terikat dengan Kebijakan Privasi yang direvisi dan/atau diperbarui tersebut. Jika Anda tidak setuju dengan ketentuan kami yang direvisi dan/atau diperbarui dalam Kebijakan Privasi, silakan berhenti mengakses layanan atau produk kami atau Situs Web kami.\\n\\nPenerimaan dan persetujuan Anda terhadap Kebijakan Privasi ini juga akan berkaitan dengan ketentuan yang tercantum berdasarkan Ketentuan Layanan dan akan dianggap dan tidak dapat dipisahkan dan satu perjanjian yang mengatur hak dan kewajiban kami kepada Anda.",
+    content: `Anda wajib membaca Kebijakan Privasi kami dari waktu ke waktu. Dengan mengakses atau menggunakan layanan atau produk kami serta Situs Web kami, hal tersebut akan dianggap sebagai persetujuan dan penerimaan Anda terhadap Kebijakan Privasi kami, dengan demikian, Anda setuju untuk terikat pada setiap ketentuan yang tercantum dalam Kebijakan Privasi kami. Jika Anda tidak setuju dengan ketentuan atau ketentuan apa pun dalam Kebijakan Privasi ini, jangan gunakan layanan atau produk kami serta Situs Web kami. Dengan mengirimkan pemberitahuan ke email Anda, kami memiliki hak untuk merevisi dan/atau memperbarui Kebijakan Privasi kami dari waktu ke waktu dan Anda setuju untuk terikat dengan Kebijakan Privasi yang direvisi dan/atau diperbarui tersebut. Jika Anda tidak setuju dengan ketentuan kami yang direvisi dan/atau diperbarui dalam Kebijakan Privasi, silakan berhenti mengakses layanan atau produk kami atau Situs Web kami.
+      \n\nPenerimaan dan persetujuan Anda terhadap Kebijakan Privasi ini juga akan berkaitan dengan ketentuan yang tercantum berdasarkan Ketentuan Layanan dan akan dianggap dan tidak dapat dipisahkan dan satu perjanjian yang mengatur hak dan kewajiban kami kepada Anda.`,
   },
   {
     id: 4,
     title: "Pengumpulan Informasi Pribadi Anda",
-    content:
-      "Kami mengumpulkan dan mengelola informasi pribadi Anda ketika Anda mendaftar untuk akun Credis. sebagai bagian dari proses verifikasi identitas kami, dalam proses transaksi, atau ketika Anda meminta tanda terima digital. Kami dapat mengumpulkan dan mengelola, tetapi tidak terbatas pada pengumpulan dan pengelolaan, sebagai berikut:\\n\\n1. Informasi dasar pengguna, seperti nama lengkap Anda, alamat email, alamat tempat tinggal dan tempat tinggal tetap, nomor telepon, tanggal lahir, usia, rincian rekening bank,\\n2. informasi pekerjaan, kartu kredit, dan / atau informasi rekening keuangan; Informasi apa pun yang diunggah oleh Anda atau informasi apa pun tentang produk dan layanan Anda;\\n3. Informasi yang melekat pada Anda saat Anda mengakses Situs kami;\\n4. Informasi apa pun di komputer, ponsel, atau perangkat lain tempat Anda memasang aplikasi kami atau mengakses Layanan kami, yang akan bergantung pada izin yang Anda berikan;\\n5. Setiap informasi yang dikumpulkan oleh cookies, suar web, serta informasi log umum;\\n\\nKami berhak, dari waktu ke waktu, melakukan verifikasi terhadap informasi pribadi yang Anda berikan kepada kami, dengan mengirimkan surat verifikasi, e-mail, atau mengharuskan Anda untuk mengirimkan dokumentasi pendukung, atau cara apa pun, sebagaimana yang diminta.\\nAnda dengan ini setuju bahwa Informasi Pribadi Anda dapat diungkapkan kepada pihak-pihak sebagai berikut:\\n- afiliasi dan anak perusahaan, agen dan subkontraktor Perusahaan;\\n- pemerintah, badan pengatur, dan lembaga pencegah penipuan untuk tujuan mengidentifikasi, mencegah, mendeteksi atau menanggulangi penipuan, pencucian uang, atau kejahatan lainnya, dan untuk tujuan yang sah lainnya;\\n- kepada pihak ketiga untuk tujuan manajemen risiko\\n- entitas lain yang mungkin diwajibkan oleh hukum atau sebagai kepentingan publik dapat menjamin, untuk tujuan yang dijelaskan dalam paragraf berikutnya; dan\\n- pembeli pada saat terjadinya akuisisi. Anda memahami dan menyadari bahwa pengungkapan tersebut harus dibuat dan setuju untuk mengesampingkan hak Anda untuk mengajukan klaim ganti rugi, sejauh diizinkan oleh undang-undang.",
+    content: `Kami mengumpulkan dan mengelola informasi pribadi Anda ketika Anda mendaftar untuk akun Credis. sebagai bagian dari proses verifikasi identitas kami, dalam proses transaksi, atau ketika Anda meminta tanda terima digital. Kami dapat mengumpulkan dan mengelola, tetapi tidak terbatas pada pengumpulan dan pengelolaan, sebagai berikut:
+    
+      1. Informasi dasar pengguna, seperti nama lengkap Anda, alamat email, alamat tempat tinggal dan tempat tinggal tetap, nomor telepon, tanggal lahir, usia, rincian rekening bank,
+      2. informasi pekerjaan, kartu kredit, dan / atau informasi rekening keuangan; Informasi apa pun yang diunggah oleh Anda atau informasi apa pun tentang produk dan layanan Anda;
+      3. Informasi yang melekat pada Anda saat Anda mengakses Situs kami;
+      4. Informasi apa pun di komputer, ponsel, atau perangkat lain tempat Anda memasang aplikasi kami atau mengakses Layanan kami, yang akan bergantung pada izin yang Anda berikan;
+      5. Setiap informasi yang dikumpulkan oleh cookies, suar web, serta informasi log umum;
+      
+      Kami berhak, dari waktu ke waktu, melakukan verifikasi terhadap informasi pribadi yang Anda berikan kepada kami, dengan mengirimkan surat verifikasi, e-mail, atau mengharuskan Anda untuk mengirimkan dokumentasi pendukung, atau cara apa pun, sebagaimana yang diminta.
+      
+      Anda dengan ini setuju bahwa Informasi Pribadi Anda dapat diungkapkan kepada pihak-pihak sebagai berikut:
+      - afiliasi dan anak perusahaan, agen dan subkontraktor Perusahaan;
+      - pemerintah, badan pengatur, dan lembaga pencegah penipuan untuk tujuan mengidentifikasi, mencegah, mendeteksi atau menanggulangi penipuan, pencucian uang, atau kejahatan lainnya, dan untuk tujuan yang sah lainnya;
+      - kepada pihak ketiga untuk tujuan manajemen risiko
+      - entitas lain yang mungkin diwajibkan oleh hukum atau sebagai kepentingan publik dapat menjamin, untuk tujuan yang dijelaskan dalam paragraf berikutnya; dan
+      - pembeli pada saat terjadinya akuisisi. Anda memahami dan menyadari bahwa pengungkapan tersebut harus dibuat dan setuju untuk mengesampingkan hak Anda untuk mengajukan klaim ganti rugi, sejauh diizinkan oleh undang-undang.`,
   },
   {
     id: 5,
     title: "Kerahasiaan Akun Anda",
-    content:
-      "Anda harus bertanggung jawab untuk menjaga kerahasiaan akun dan kata sandi Anda sendiri, serta setiap dan semua aplikasi yang diajukan, kewajiban yang disetujui atau dimasukkan ke dalam dan semua kegiatan lain yang dilakukan berdasarkan akun tersebut. Anda setuju untuk segera memberi tahu kami tentang penggunaan atau pengungkapan yang tidak sah atas akun atau kata sandi Anda, setiap kegiatan tidak sah di bawah akun Anda atau pelanggaran keamanan lainnya.\\n\\nKami tidak akan bertanggung jawab atas kerugian apa pun yang mungkin Anda alami akibat penggunaan pihak ketiga atas akun atau kata sandi Anda, baik dengan atau tanpa sepengetahuan Anda, tanpa kesalahan atau kelalaian dari pihak kami.",
+    content: `Anda harus bertanggung jawab untuk menjaga kerahasiaan akun dan kata sandi Anda sendiri, serta setiap dan semua aplikasi yang diajukan, kewajiban yang disetujui atau dimasukkan ke dalam dan semua kegiatan lain yang dilakukan berdasarkan akun tersebut. Anda setuju untuk segera memberi tahu kami tentang penggunaan atau pengungkapan yang tidak sah atas akun atau kata sandi Anda, setiap kegiatan tidak sah di bawah akun Anda atau pelanggaran keamanan lainnya.
+
+      Kami tidak akan bertanggung jawab atas kerugian apa pun yang mungkin Anda alami akibat penggunaan pihak ketiga atas akun atau kata sandi Anda, baik dengan atau tanpa sepengetahuan Anda, tanpa kesalahan atau kelalaian dari pihak kami.`,
   },
   {
     id: 6,
@@ -325,5 +340,88 @@ export const kebijakan = [
     title: "Hubungi kami",
     content:
       "Untuk pertanyaan, kekhawatiran atau klarifikasi apapun tentang Kebijakan Privasi kami, kami dapat dihubungi melalui sistem dukungan pelanggan di 0821654221 dan/atau email ke hellocredis@gmail.com.",
+  },
+];
+
+export const syaratKetentuan = [
+  {
+    id: 1,
+    title: "Ketentuan",
+    content:
+      `Kami, PT Credis Teknologi Inovasi, suatu perseroan terbatas yang didirikan berdasarkan hukum negara Republik Indonesia, memiliki kantor terdaftar di [Jalan Waru 4 No 25, Perumahan Tanjung Elok, Purwokerto Selatan, Banyumas] (selanjutnya disebut sebagai "Credis" atau “Kami”).
+
+      Syarat dan ketentuan ini (“Ketentuan”) merupakan suatu perjanjian hukum antara anda dan Credis, untuk mengatur mengenai syarat dan ketentuan untuk penggunaan Layanan Credis oleh anda. Dalam Ketentuan ini, Layanan Credis berarti penjualan dan penyediaan suatu fitur, teknologi, benda, produk, perangkat lunak, perangkat keras, dan produk-produk, jasa-jasa, atau fungsi lain yang diberikan oleh produk atau jasa tersebut oleh Credis, termasuk aplikasi Credis POS iOS dan Android (“Aplikasi”) dan Credis.id (“Website”) (secara bersama-sama disebut sebagai “Layanan”).
+      
+      Individu atau organisasi yang mengikatkan diri dalam Ketentuan ini sebagai pengguna Layanan, termasuk juga seluruh pengguna individu yang mengakses Layanan atas nama individu tersebut (secara bersama-sama disebut sebagai “Anda” atau “Pengguna”).
+      
+      Credis memberikan kepada anda suatu lisensi terbatas, non-eksklusif, tidak dapat dialihkan, dan dapat dibatalkan, untuk menggunakan Layanan (tergantung pada jenis akun anda) sesuai dengan Ketentuan ini.
+      
+      Anda diwajibkan untuk membaca Ketentuan dari waktu ke waktu. Dengan mengakses atau menggunakan layanan, tindakan tersebut dianggap sebagai persetujuan dan penerimaan anda terhadap Ketentuan kami, dengan demikian, anda setuju untuk terikat pada setiap aturan yang dituangkan dalam Ketentuan kami. Apabila anda tidak setuju dengan suatu syarat atau aturan dalam Ketentuan ini, silakan untuk menghentikan menggunakan Layanan.
+      
+      Seluruh hak yang tidak secara tegas diberikan kepada Pengguna dalam Ketentuan ini dimiliki oleh Credis.`,
+  },
+  {
+    id: 2,
+    title: "Kebijakan Privasi",
+    content: `Pengunaan dan/atau akses ke Layanan akan tunduk pada segala aturan yang dituangan dalam Kebijakan Privasi dalam Website, yang dapat diakses melalui https://www.Credis.id/id/privacy. Dengan menyetujui syarat dan ketentuan ini, kami mengasumsikan bahwa anda telah membaca dan menyetujui isi dari Kebijakan Privasi. Kebijakan Privasi dan syarat dan ketentuan merupakan suatu kesatuan dokumen yang perlu disetujui oleh pengguna sebelum dapat melanjutkan menelusuri Website dan menggunakan Layanan.`,
+  },
+  {
+    id: 3,
+    title: "Amendments",
+    content: `Kami memiliki hak untuk membuat suatu amendemen, revisi dan/atau memperbarui Ketentuan ini dari waktu ke waktu dan anda setuju untuk terikat dengan Ketentuan yang direvisi dan/atau diperbarui tersebut. Kami akan berusaha untuk memberitahu anda sehubungan dengan perubahan tersebut melalui email atau dengan menampilkan suatu pesan pada saat anda menggunakan Layanan pada kesempatan berikutnya. Apabila anda melanjutkan penggunaan Layanan, penggunaan anda akan diatur oleh dan tunduk pada Ketentuan yang telah diperbarui. Apabila anda tidak setuju dengan amendemen, revisi, dan/atau pembaruan kami terhadap aturan-aturan dalam Ketentuan ini, silakan menghentikan akses terhadap Layanan.
+
+    Dari waktu ke waktu, kami dapat menambahkan, melakukan perubahan terhadap, atau menghilangkan seluruh fitur atau fungsi dalam Layanan. Apabila anda menggunakan Aplikasi, anda mungkin perlu untuk memasang versi baru atau yang diperbarui sebelum anda dapat menerima manfaat atas perubahan-perubahan tersebut. Kami juga dapat memutuskan untuk menghentikan penyediaan seluruh atau sebagian Layanan pada setiap waktu, dan tidak satupun dalam Ketentuan ini yang dianggap sebagai suatu jaminan bahwa Layanan akan terus tersedia, baik dalam bentuk saat ini atau bentuk lain apapun juga, atau bahwa kami akan mendukung, memelihara atau terus menawarkan Layanan, atau versi apapun dari Layanan. Pengunaan Layanan oleh anda akan selalu diatur dan tunduk pada Ketentuan yang diperbarui, meskipun adanya penambahan, perubahan, atau penyesuaian Layanan. Untuk menghindari keraguan, tambahan, perubahan, atau penyesuaian Layanan tersebut tidak membatalkan keberlakuan Ketentuan ini, kecuali secara tegas dinyatakan oleh Credis.`,
+  },
+  {
+    id: 4,
+    title: "Informasi Akun",
+    content: `Anda harus merupakan
+
+    1. penduduk individual berusia sekurang-kurangnya 18 tahun atau pernah menikah dan memiliki kapasitas hukum untuk mengikatkan diri dalam suatu perjanjian yang sah; atau
+    
+    2. badan hukum yang didirikan secara sah berdasarkan hukum jurisdiksi terkait dan memiliki domisili hukum, yang diwakili oleh perwakilan yang sah dan memiliki kapasitas hukum untuk mengikatkan diri dalam perjanjian yang sah, khususnya terkait aturan terkait Layanan, untuk mengakses dan menggunakan Layanan.
+    
+    Anda setuju untuk menyediakan informasi akun yang benar, akurat, terkini, dan lengkap pada saat proses pendaftaran, dan akan tetap menjaga dan segera memperbarui informasi akun untuk memastikan bahwa informasi akun tetap benar, akurat, terkini, dan lengkap. Anda menyatakan dan menjamin bahwa anda memiliki hak yang sah untuk menggunakan suatu kartu kredit, kartu debit, atau metode pembayaran lain yang anda gunakan sehubungan dengan Layanan.
+    
+    Untuk diketahui bahwa apabila anda termasuk kategori nomor (ii) dan dalam kapasitas untuk bertindak untuk dan atas nama suatu badan hukum, anda harus memperoleh persetujuan yang diperlukan dari badan hukum tersebut dan dari pihak ketiga lain yang terkait sehubungan dengan penggunaan dan tanggung jawab atas (i) tindakan anda sehubungan dengan Layanan; (ii) biaya terkait dengan penggunaan Layanan; dan (iii) penerimaan dan kepatuhan anda terhadap Ketentuan ini. Dengan melanjutkan penggunaan dan/atau menggunakan Layanan, kami mengasumsikan bahwa anda telah memperoleh segala persetujuan yang diperlukan dan berwenang untuk mengakses Layanan.`,
+  },
+  {
+    id: 5,
+    title: "Biaya dan Pajak",
+    content: `Biaya berlanganan untuk penggunaan Layanan adalah sebagaimana dicantumkan dalam Website (“Biaya”) dan dapat mengalami perubahan. Kami akan berusaha untuk memberikan pemberitahuan kepada anda (melalui email atau dengan menampilkan suatu pesan pada saat anda menggunakan Layanan pada kesempatan berikutnya) sekurang-kurangnya 30 hari sebelum mengubah Biaya. Biaya tidak dapat dikembalikan, termasuk jika anda hanya menggunakan sebagian dari langganan bulanan atau tahunan atas Layanan. Kecuali diwajibkan oleh hukum dan putusan pengadilan yang sah dan mengikat dalam jurisdiksi yang berwenang, kami tidak akan menyediakan pengembalian Biaya Layanan sehubungan dengan pengakhiran Layanan oleh anda atau Credis, sehubungan dengan Kententuan ini.
+
+    Apabila anda menggunakan uji coba gratis dari Layanan (sebagaimana ditawarkan dalam Websita atau Aplikasi), uji coba gratis akan dimulai pada hari akun anda dibuka dan berakhir 14 hari kemudian. Apabila anda ingin melanjutkan menggunakan Layanan setelah berakhirnya masa uji coba gratis, anda harus membayar Biaya.
+    
+    Seluruh Biaya tidak termasuk pajak, dan anda menjamin dan membebaskan Credis dari segala tuntutan dari otoritas pajak manapun untuk segala kurang bayar atas pajak penjualan, penggunaan, barang dan jasa, pajak pertambahan nilai atau pajak atau pungutan lainnya, dan segala denda dan/atau bunga.`,
+  },
+  {
+    id: 6,
+    title: "Hak Kekayaan Intelektual",
+    content:
+      `Anda setuju bahwa konten dan segala material lain yang terdapat dalam Layanan, termasuk, namun tanpa batasam hak cipta dan hak kekayaan intelektual lainnya dalam karya seni, grafis, fotografi, teks, video, dan cuplikan suara, merek dagang dan logo yang ada dalam Situs (secara bersama-sama disebut “Konten”) dimiliki oleh Credis. Anda setuju untuk tidak mengajukan keberatan atau melakukan apapun yang tidak sesuai dengan kepemilikan tersebut. Anda tidak diperkenankan untuk menyalin, mereproduksi, menggunakan kembali, mentransmisikan kembali, mengadaptasi, mengumukan, memajang, memuat, mengunggah, membagikan, mengubah, menyiarkan, atau membuat karya turunan dari Konten dengan cara apapun, termasuk untuk keperluan publik atau komersial apapun, tanpa persetujuan tertulis sebelumnya dari Credis. Anda tidak diberikan lisensi sehubungan dengan Konten yang terdapat dalam Situs. Berdasarkan diskresi tunggal, Credis, pihak terafiliasi Credis, atau pemberi lisensi Credis dapat melakukan upaya-upaya untuk melaksanakan hak kekayaan intelektual mereka sejauh mungkin yang diperkenankan hukum, termasuk untuk melaksanakan proses peradilan kriminal.
+
+      Anda memberikan Credis, anak perusahaan, afiliasi, dan penerus hak Credis suatu hak yang bebas royalti, tidak dapat dibatalkan, dan berlaku terus menerus (termasuk untuk keperluan komersial) untuk menggunakan informasi dan/atau data yang diperoleh Credis melalui penggunaan Layanan oleh Anda, dengan ketentuan bahwa kami akan mengaggregasi atau melakukan anonimisasi informasi atau data tersebut sebelum menggunakannya.
+      
+      Selain itu, anda juga memberikan Credis, anak perusahaan, afiliasi, dan penerus hak Credis suatu hak yang berlaku di seluruh dunia, non-eksklusif, bebas royalti, telah dibayar penuh, dapat dialihkan, dan dapat disublisensikan untuk menggunakan, mereproduksi, mengubah, mengadaptasi, mengumumkan, membuat karya turunan dari, mendistribusikan, melaksanakan di muka umum, dan mengumumkan di muka umum konten anda di seluruh dunia dalam media apapun untuk menyediakan dan mempromosikan Layanan, sepanjang diperkenankan peraturan perundang-undangan.
+      
+      Selain dari hak-hak tersebut, Credis tidak mengklaim hak kekayaan intelektual sehubungan dengan informasi dan konten yang anda masukkan ke dalam layanan.
+      
+      Anda dapat memberikan kami komentar, tanggapan, atau saran sehubungan dengan Layanan, dan anda setuju bahwa kami bebas untuk menggunakan, mengubah, dan menuangkan saran tersebut tanpa suatu kewajiban apapun kepada anda.`,
+  },
+  {
+    id: 7,
+    title: "Lain-lain",
+    content:
+      `Kami menyediakan fasilitas layanan pelanggan yang tersedia (harap cantumkan hari/jam) dan dapat diakses melalui:
+
+      Telepon: 0821654221
+      
+      Email: Credisero@gmail.com
+      
+      Dalam hal terdapat aturan manapun dalam Ketentuan ini yang dianggap tidak dapat dilaksanakan atau tidak sah oleh otoritas yang berwenang, ketentuan tersebut akan diubah untuk dapat dilaksanakan sehubungan dan maksud dari naskah asli sepanjang diperkenankan oleh hukum yang berlaku. Keberlakuan dan pelaksanaan aturan lain dalam Ketentuan ini tidak akan terpengaruh.
+      
+      Dalam hal terdapat aturan manapun dalam Ketentuan ini yang melanggar atau bertentangan dengan perjanjian/kebijakan atau pengaturan lain manapun, aturan dalam Ketentuan ini akan berlaku dan mengesampingkan perjanjian/kebijakan atau pengaturan lain manapun yang sebelumnya ada.
+      
+      Ketentuan ini diatur berdasarkan hukum negara Indonesia dan Kami dan anda telah stuju bahwa segala perselisihan mengenai keberlakuan Ketentuan ini akan diselesaikan secara musyawarah atau melalui jurisdiksi eksklusif Pengadilan Negeri Banyumas`,
   },
 ];
