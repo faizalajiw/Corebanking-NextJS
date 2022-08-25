@@ -1,5 +1,5 @@
 import { Footer } from "../../components/Footer";
-import { Navbar } from "../../components/Navbar";
+import { Header } from "../../components/Header";
 import { Subs } from "../../components/Subs";
 import { FaCreditCard } from "react-icons/fa";
 import { MdPhoneAndroid } from "react-icons/md";
@@ -10,7 +10,7 @@ import Link from "next/link";
 export default function FAQ() {
   return (
     <>
-      <Navbar />
+      <Header />
       <div className="bg-cover bg-center bg-no-repeat bg-banner-pattern py-32 md:py-[10.5rem] px-[31.5]">
         <div className="text-2xl md:text-4xl font-semibold text-center text-[#F1F1F1]">
           Hai, Ada Yang Bisa Kami Bantu?
