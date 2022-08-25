@@ -38,7 +38,7 @@ module.exports = {
       backgroundImage: {
         'banner-pattern': "url('/img/Banner.svg')",
         'hero-pattern': "url('/img/Hero.svg')",
-        'jangkauan-pattern': "url('/img/JangkauanBg.svg')",
+        'jangkauan-pattern': "url('/img/JangkauanBg.png')",
       },
     },
   },
