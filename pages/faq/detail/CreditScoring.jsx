@@ -12,8 +12,10 @@ export default function CreditScoring() {
       <div className=" bg-white flex flex-col items-center">
         <h1 className=" text-black text-3xl font-bold my-10">Credit Scoring</h1>
         <div className=" mb-20">
-          {faqCreditScoring.map((val) => (
-            <Accordion title={val.title} subtitle={val.subtitle} />
+          {faqCreditScoring.map((val, index) => (
+            <div key={index}>
+              <Accordion title={val.title} subtitle={val.subtitle} />
+            </div>
           ))}
         </div>
       </div>
