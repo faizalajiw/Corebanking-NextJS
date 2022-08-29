@@ -29,13 +29,15 @@ export default function Home() {
           </p>
         </div>
         <div className="flex flex-col gap-5 justify-center items-center md:items-start md:flex-row">
-          {blog.slice(0, 3).map((b) => (
-            <Blog
-              image={b.image}
-              header={b.header}
-              content={b.content}
-              date={b.date}
-            />
+          {blog.slice(0, 3).map((val, index) => (
+            <div key={index}>
+              <Blog
+                image={val.image}
+                header={val.header}
+                content={val.content}
+                date={val.date}
+              />
+            </div>
           ))}
         </div>
         <Link href="blog/Blogpage">
