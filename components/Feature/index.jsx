@@ -1,73 +1,102 @@
 import React from "react";
+import Link from "next/link";
 
 export const Feature = () => {
   return (
     <div className=" bg-white flex-col flex gap-16 md:gap-10 md:px-32">
-      <div className=" flex flex-col text-black md:flex-row">
+      {/* Feature 1 */}
+      <div className=" flex flex-col text-bluecredis md:flex-row">
         <div className="container flex justify-center mb-3">
-          <img src="img/credit scoring.png" alt="" className=" w-96" />
+          <img src="img/credit scoring.png" alt="" className="w-64 md:w-96" />
         </div>
-        <div className="container px-10">
-          <h1 className="text-2xl mb-5 md:mb-10">Credit Scoring</h1>
-          <p className="mb-10 font-light text-justify md:font-normal">
+        <div className="container flex flex-col items-center md:items-start px-10">
+          <h1 className="text-3xl md:font-bold my-5 md:mb-10 text-center md:text-left">
+            Credit Scoring
+          </h1>
+          <p className="mb-10 md:text-lg font-light text-justify md:font-normal">
             Pelayanan untuk mengecek tingkat kelayakan kredit untuk mendapatkan
             produk seperti Kredit Tanpa Agunan (KTA), Kredit Pemilikan Rumah
             (KPR), kartu kredit, dan lain-lain.
           </p>
-          <button className="bg-green-400 rounded px-4 py-2 text-xs text-white">
-            Selengkapnya
-          </button>
+          <Link href="/fitur/CreditScoring">
+            <button className="bg-green-400 hover:bg-green-500 text-lg rounded px-4 py-2 text-white">
+              Selengkapnya
+            </button>
+          </Link>
         </div>
       </div>
-      <div className=" flex flex-col text-black md:flex-row">
+      {/* Feature 2 */}
+      <div className=" flex flex-col text-bluecredis md:flex-row">
         <div className="container flex justify-center mb-3 md:hidden">
-          <img src="img/mobile banking.png" alt="" className=" w-96" />
+          <img src="img/mobile banking.png" alt="" className="w-64 md:w-96" />
         </div>
-        <div className="container px-10">
-          <h1 className="text-2xl mb-5 md:mb-10">Mobile Banking</h1>
-          <p className="mb-10 font-light text-justify md:font-normal">
+        <div className="container flex flex-col items-center md:items-start px-10">
+          <h1 className="text-3xl md:font-bold my-5 md:mb-10 text-center md:text-left">
+            Mobile Banking
+          </h1>
+          <p className="mb-10 font-light text-justify md:font-normal md:text-lg">
             Cek saldo rekening, transfer dana, dan bayar tagihan Anda dengan
             lebih mudah dan nyaman melalui M-Banking CREDIS.
           </p>
-          <button className="bg-green-400 rounded px-4 py-2 text-xs text-white">
-            Selengkapnya
-          </button>
+          <Link href="/fitur/Mbanking">
+            <button className="bg-green-400 hover:bg-green-500 text-lg rounded px-4 py-2 text-white">
+              Selengkapnya
+            </button>
+          </Link>
         </div>
         <div className="container justify-center mb-3 hidden md:flex">
-          <img src="img/mobile banking.png" alt="" className=" w-96" />
+          <img src="img/mobile banking.png" alt="" className="w-64 md:w-96" />
         </div>
       </div>
-      <div className=" flex flex-col text-black md:flex-row">
+      {/* Feature 3 */}
+      <div className=" flex flex-col text-bluecredis md:flex-row">
         <div className="container flex justify-center mb-3">
-          <img src="img/kyc.png" alt="" className=" w-96" />
+          <img src="img/kyc.png" alt="" className="w-64 md:w-96" />
         </div>
-        <div className="container px-10">
-          <h1 className="text-2xl mb-5 md:mb-10">Verifikasi KYC</h1>
-          <p className="mb-10 font-light text-justify md:font-normal">
+        <div className="container flex flex-col items-center md:items-start px-10">
+          <h1 className="text-3xl md:font-bold my-5 md:mb-10 text-center md:text-left">
+            Verifikasi KYC
+          </h1>
+          <p className="mb-10 font-light md:text-lg text-justify md:font-normal">
             Identifikasi, verifikasi, dan pemantauan transaksi nasabah demi
             melindungi keamanan data dan kenyamanan layanan finansial Anda.
           </p>
-          <button className="bg-green-400 rounded px-4 py-2 text-xs text-white">
-            Selengkapnya
-          </button>
+          <Link href="/fitur/KYC">
+            <button className="bg-green-400 hover:bg-green-500 text-lg rounded px-4 py-2 text-white">
+              Selengkapnya
+            </button>
+          </Link>
         </div>
       </div>
-      <div className=" flex flex-col text-black md:flex-row">
+      {/* Feature 4 */}
+      <div className=" flex flex-col text-bluecredis md:flex-row">
         <div className="container flex justify-center mb-3 md:hidden">
-          <img src="img/laporan terperinci.png" alt="" className=" w-96" />
+          <img
+            src="img/laporan terperinci.png"
+            alt=""
+            className="w-64 md:w-96"
+          />
         </div>
-        <div className="container px-10">
-          <h1 className="text-2xl mb-5 md:mb-10">Laporan Terperinci</h1>
-          <p className="mb-10 font-light text-justify md:font-normal">
+        <div className="container flex flex-col items-center md:items-start px-10">
+          <h1 className="text-3xl md:font-bold my-5 md:mb-10 text-center md:text-left">
+            Laporan Terperinci
+          </h1>
+          <p className="mb-10 font-light md:text-lg text-justify md:font-normal">
             Semua riwayat transfer, mutasi, dan sistem keuangan Anda direkap
             secara terperinci dan bisa di unduh.
           </p>
-          <button className="bg-green-400 rounded px-4 py-2 text-xs text-white">
-            Selengkapnya
-          </button>
+          <Link href="/fitur/LaporanTerperinci">
+            <button className="bg-green-400 hover:bg-green-500 text-lg rounded px-4 py-2 text-white">
+              Selengkapnya
+            </button>
+          </Link>
         </div>
         <div className="container  justify-center mb-3 hidden md:flex">
-          <img src="img/laporan terperinci.png" alt="" className=" w-96" />
+          <img
+            src="img/laporan terperinci.png"
+            alt=""
+            className="w-64 md:w-96"
+          />
         </div>
       </div>
     </div>

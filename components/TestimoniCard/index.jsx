@@ -18,8 +18,10 @@ export const TestimoniCard = ({ image, name, job, review, star }) => {
         <div className="container flex gap-1">
           {Array(star)
             .fill(0)
-            .map(() => (
-              <FaStar className=" text-yellow-400 text-2xl" />
+            .map((index) => (
+              <div key={index}>
+                <FaStar className=" text-yellow-400 text-2xl" />
+              </div>
             ))}
         </div>
       </div>

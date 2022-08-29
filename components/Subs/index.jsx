@@ -3,8 +3,8 @@ import React from "react";
 export const Subs = () => {
   return (
     <div className="bg-bluecredis flex px-10 pt-5 md:px-32">
-      <div className="container flex-[160%] text-left">
-        <h1 className="font-bold text-3xl pb-1 text-white">
+      <div className="container flex-[160%] text-center md:text-left">
+        <h1 className="font-[700] text-3xl pb-1 text-white">
           Berlangganan kepada kami
         </h1>
         <p className="pb-6  text-white">
@@ -12,14 +12,14 @@ export const Subs = () => {
         </p>
         <form
           action=""
-          className=" justify-center content-start gap-3 md:relative md:justify-start md:content-start"
+          className=" flex justify-center content-center gap-3 md:relative md:justify-start md:content-start"
         >
           <input
             type="text"
-            placeholder="Email"
-            className="text-gray-400 bg-white px-5 text-sm w-[330px] rounded mb-3 h-12 w-72 md:absolute md:w-[460px]"
+            placeholder="Ketikan emailmu di sini"
+            className="font-semibold text-gray-400 bg-white px-5 text-sm rounded h-12 w-72 md:absolute md:w-[460px]"
           />
-          <button className="px-5 py-3 rounded bg-green-400  top-[6px] left-[158px] text-white text-sm md:py-2 md:absolute md:left-[330px]">
+          <button className="font-semibold px-5 py-3 md:py-2 rounded bg-green-400 hover:bg-green-500 top-[6px] left-[158px] text-white text-sm md:absolute md:left-[320px]">
             Berlangganan
           </button>
         </form>

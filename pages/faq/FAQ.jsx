@@ -21,7 +21,7 @@ export default function FAQ() {
         Cari Topik Berdasarkan Fitur
       </div>
 
-      <div className="grid grid-cols-2 gap-8 mx-6 mb-10 md:grid md:grid-cols-4 md:gap-[12.5rem] md:mx-36 md:mb-28 justify-items-center text-bluecredis">
+      <div className="grid grid-cols-2 gap-8 mx-6 mb-10 md:grid md:grid-cols-4 md:gap-[12.5rem] md:mx-36 md:mb-28 place-items-center text-bluecredis">
         {/* Credit Score FAQ */}
         <div className="flex flex-row box-border h-[12.5rem] w-[12.5rem] px-0 py-0 border-none content-center justify-center">
           <Link href="/faq/detail/CreditScoring">
