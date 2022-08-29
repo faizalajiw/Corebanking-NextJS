@@ -2,6 +2,8 @@ import React from "react";
 import { Footer } from "../../components/Footer";
 import { Header } from "../../components/Header";
 import { Subs } from "../../components/Subs";
+import { TestimoniCard } from "../../components/TestimoniCard";
+import { testimoni } from "../../Data";
 
 export default function Testimoni() {
   return (
@@ -12,6 +14,17 @@ export default function Testimoni() {
         <p className=" font-light md:font-normal">
           Apa yang dikatakan pelanggan mengenai kami
         </p>
+      </div>
+      <div className=" flex flex-col items-center justify-center mb-20 gap-5 md:items-start md:flex-wrap md:flex-row">
+        {testimoni.slice(0, 9).map((t) => (
+          <TestimoniCard
+            name={t.name}
+            image={t.image}
+            job={t.job}
+            review={t.review}
+            star={t.star}
+          />
+        ))}
       </div>
       <Subs />
       <Footer />

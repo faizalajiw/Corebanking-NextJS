@@ -1,7 +1,7 @@
 export const testimoni =[
     {
         id:1,
-        image:"img/user testi 1.png",
+        image:"../../img/user testi 1.png",
         name: "Martin Sinahaan",
         job:"Pekerja Lepas",
         review:"Ini adalah fenomenal, pembayaran yang terintegerasi, sistem pembelian pulsa dan PPOB yang lengkap",
@@ -9,15 +9,63 @@ export const testimoni =[
     },
     {
         id:2,
-        image:"img/user testi 2.png",
+        image:"../../img/user testi 2.png",
         name: "Martin Sin",
         job:"Pekerja Lepas",
-        review:"Saya Tidak dapat menjelaskan lagi bagaimana aplikasi ini sangat baik",
+        review:"Saya tidak dapat menjelaskan lagi bagaimana aplikasi ini sangat baik",
         star:4
     },
     {
         id:3,
-        image:"img/user testi 3.png",
+        image:"../../img/user testi 3.png",
+        name: "Martin Sintak",
+        job:"Pekerja Lepas",
+        review:"Semua telah terdigitalisasi dan cashless saya sangat suka itu semoga dimasa depan lebih simple lagi",
+        star:3
+    },
+    {
+        id:4,
+        image:"../../img/user testi 3.png",
+        name: "Martin Sintak",
+        job:"Pekerja Lepas",
+        review:"Semua telah terdigitalisasi dan cashless saya sangat suka itu semoga dimasa depan lebih simple lagi",
+        star:3
+    },
+    {
+        id:5,
+        image:"../../img/user testi 3.png",
+        name: "Martin Sintak",
+        job:"Pekerja Lepas",
+        review:"Semua telah terdigitalisasi dan cashless saya sangat suka itu semoga dimasa depan lebih simple lagi",
+        star:3
+    },
+    {
+        id:6,
+        image:"../../img/user testi 3.png",
+        name: "Martin Sintak",
+        job:"Pekerja Lepas",
+        review:"Semua telah terdigitalisasi dan cashless saya sangat suka itu semoga dimasa depan lebih simple lagi",
+        star:3
+    },
+    {
+        id:7,
+        image:"../../img/user testi 3.png",
+        name: "Martin Sintak",
+        job:"Pekerja Lepas",
+        review:"Semua telah terdigitalisasi dan cashless saya sangat suka itu semoga dimasa depan lebih simple lagi",
+        star:3
+    },
+    {
+        id:8,
+        image:"../../img/user testi 3.png",
+        name: "Martin Sintak",
+        job:"Pekerja Lepas",
+        review:"Semua telah terdigitalisasi dan cashless saya sangat suka itu semoga dimasa depan lebih simple lagi",
+        star:3
+    },
+    {
+        id:9,
+        image:"../../img/user testi 3.png",
         name: "Martin Sintak",
         job:"Pekerja Lepas",
         review:"Semua telah terdigitalisasi dan cashless saya sangat suka itu semoga dimasa depan lebih simple lagi",
@@ -28,7 +76,7 @@ export const testimoni =[
 export const fitur = [
     {
         id: 1,
-        image: "../img/credit scoring.png",
+        image: "../../../img/credit scoring.png",
         header: "Credit Scoring",
         title: "Apa yang ditawarkan fitur Credit Scoring?",
         subtitle: "Pelayanan untuk mengecek tingkat kelayakan kredit untuk mendapatkan produk seperti Kredit Tanpa Agunan (KTA), Kredit Pemilikan Rumah (KPR), kartu kredit, dan lain-lain.",
@@ -63,28 +111,28 @@ export const fitur = [
 export const blog = [ 
     {
         id : 1,
-        image : "img/image blog 1.png",
+        image : "../../img/image blog 1.png",
         header : "Apa itu Core Banking System? Berikut Penjelasannya",
         content : "Core Banking system sendiri adalah jantung dari sebuah bank, karena sistem ini digunakan untuk memproses loan, dan di dalamnya tersimpan data nasabah serta semua transaksi sejak nasabah membuka rekening di bank sampai menutupnya.",
         date : "Di Publish 21 Juli 2022"
     },
     {
         id : 2,
-        image : "img/image blog 2.png",
+        image : "../../img/image blog 2.png",
         header : "BI dan Kemenkeu Sepakati Pengembangan CBS",
         content : "Bank Indonesia (BI) dan Kementerian Keuangan (Kemenkeu) menyepakati pengembangan aplikasi Core Banking System (CBS) oleh BI dan interkoneksi dengan sistem di Kemenkeu di tahun 2021, sebagai salah satu topik strategis.",
         date : "Di Publish 7 Desember 2021"
     },
     {
         id : 3,
-        image : "img/image blog 3.png",
+        image : "../../img/image blog 3.png",
         header : "Integrasi Core Banking Permudah Layanan Perbankan",
         content : "Seiring dengan semakin meningkatnya kebutuhan kecepatan dalam perbankan, core banking yang ada saat ini semakin berbenah dan ditingkatkan pula. Sistem pada perbankan konvensional saat ini.",
         date : "Di Publish 24 November 2021"
     },
     {
         id : 4,
-        image : "img/image blog 4.png",
+        image : "../../img/image blog 4.png",
         header : "Sejumlah Bank Swasta Tingkatkan Core Banking System",
         content : "Sejumlah bank umum swasta nasional (BUSN) berupaya meningkatkan core banking system mereka untuk meningkatkan pelayanan kepada nasabah dan memperkuat komptensi di bidang digital. Presiden Direktur PT Bank CIMB Niaga Tbk (CIMB Niaga) Tigor M Siahaan mengatakan, saat ini bank yang ia pimpin secara resmi menggunakan core banking system bernama 1Platform (1P).",
         date : "Di Publish 24 Februari 2022"
