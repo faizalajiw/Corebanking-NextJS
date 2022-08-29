@@ -6,7 +6,7 @@ import { AiOutlinePhone } from "react-icons/ai";
 import { Map } from "../../components/Map";
 import { Header } from "../../components/Header";
 
-export default function () {
+export default function Kontak() {
   return (
     <div className="bg-white">
       <Header />

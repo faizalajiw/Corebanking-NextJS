@@ -12,8 +12,10 @@ export default function VerifikasiKyc() {
       <div className=" bg-white flex flex-col items-center">
         <h1 className=" text-black text-3xl font-bold my-10">Verifikasi KYC</h1>
         <div className=" mb-20">
-          {faqVerifikasiKyc.map((val) => (
-            <Accordion title={val.title} subtitle={val.subtitle} />
+          {faqVerifikasiKyc.map((val, index) => (
+            <div key={index}>
+              <Accordion title={val.title} subtitle={val.subtitle} />
+            </div>
           ))}
         </div>
       </div>

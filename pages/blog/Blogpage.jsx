@@ -32,19 +32,23 @@ export default function Blogpage() {
                 mengatakan, saat ini bank yang ia pimpin secara resmi
                 menggunakan core banking system bernama 1Platform (1P).
               </p>
-              <p className=" text-sm font-medium pt-2">Di Publish 24 Februari 2022</p>
+              <p className=" text-sm font-medium pt-2">
+                Di Publish 24 Februari 2022
+              </p>
             </div>
           </div>
         </div>
 
         <div className=" flex flex-col gap-5 justify-center items-center md:items-start md:flex-row md:flex-wrap md:gap-14 md:px-32 pt-10">
-          {blog.slice(0, 6).map((b) => (
-            <Blog
-              image={b.image}
-              header={b.header}
-              content={b.content}
-              date={b.date}
-            />
+          {blog.slice(0, 6).map((val, index) => (
+            <div key={index}>
+              <Blog
+                image={val.image}
+                header={val.header}
+                content={val.content}
+                date={val.date}
+              />
+            </div>
           ))}
         </div>
       </section>

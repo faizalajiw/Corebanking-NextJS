@@ -40,7 +40,9 @@ export default function Home() {
         </div>
         <Link href="blog/Blogpage">
           <div className="flex justify-center mt-10">
-            <a className=" text-bluecredis font-bold cursor-pointer">Lihat Semua</a>
+            <a className=" text-bluecredis font-bold cursor-pointer">
+              Lihat Semua
+            </a>
           </div>
         </Link>
       </div>
@@ -54,19 +56,23 @@ export default function Home() {
           </p>
         </div>
         <div className="flex justify-center gap-10 flex-wrap">
-          {testimoni.slice(0, 3).map((t) => (
-            <TestimoniCard
-              name={t.name}
-              image={t.image}
-              job={t.job}
-              review={t.review}
-              star={t.star}
-            />
+          {testimoni.slice(0, 3).map((val, index) => (
+            <div key={index}>
+              <TestimoniCard
+                name={val.name}
+                image={val.image}
+                job={val.job}
+                review={val.review}
+                star={val.star}
+              />
+            </div>
           ))}
         </div>
         <Link href="testimoni/Testimoni">
           <div className="flex justify-center mt-10">
-            <a className=" text-bluecredis font-bold cursor-pointer">Lihat Semua</a>
+            <a className=" text-bluecredis font-bold cursor-pointer">
+              Lihat Semua
+            </a>
           </div>
         </Link>
       </div>
