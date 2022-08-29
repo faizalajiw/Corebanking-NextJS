@@ -21,7 +21,7 @@ export default function Blogpage() {
           </div>
           <div className="flex container px-1 md:p-8 flex-col">
             <div className="flex font-semibold text-xl md:text-2xl md:pr-56">
-              Sejumlah Bank Swasta Tingkatkan "Core Banking System"
+              Sejumlah Bank Swasta Tingkatkan &quot;Core Banking System&quot;
             </div>
             <div className=" container text-bases font-light pt-2 md:pr-24">
               <p>
