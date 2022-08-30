@@ -10,8 +10,12 @@ import { blog } from "../Data";
 import { Section } from "../components/Section";
 import { Feature } from "../components/Feature";
 import { JangkauanKami } from "../components/JangkauanKami";
+<<<<<<< HEAD
 import Menu from "../components/Head";
 
+=======
+import { Mitra } from "../components/Mitra";
+>>>>>>> c96264bd8d5edad31fd754f2879ab300adda34c0
 
 export default function Home() {
   return (
@@ -24,6 +28,7 @@ export default function Home() {
         <Feature />
         <JangkauanKami />
       </div>
+      {/* Blog Section */}
       <div className="bg-white pb-16">
         <div className="text-center px-7 mb-20 text-bluecredis md:px-32">
           <h1 className="text-3xl font-semibold mb-3 md:font-bold">Blog</h1>
@@ -51,6 +56,20 @@ export default function Home() {
           </div>
         </Link>
       </div>
+      {/* End Blog Section */}
+
+      {/* Mitra */}
+      <div className="bg-white pb-16 pt-10">
+        <div className="text-center px-7 text-bluecredis md:px-24 place-items-center">
+          <h1 className="text-xl md:text-3xl mb-10 font-semibold md:font-bold">
+            Telah Dipercaya Oleh 50+ Mitra
+          </h1>
+          <Mitra />
+        </div>
+      </div>
+      {/* End Mitra Section */}
+
+      {/* Testimoni Section */}
       <div className="bg-white pb-16 pt-10">
         <div className="text-center px-7 mb-20 text-bluecredis md:px-32">
           <h1 className="text-3xl font-semibold mb-3 md:font-bold">
@@ -81,6 +100,8 @@ export default function Home() {
           </div>
         </Link>
       </div>
+      {/* End Testimoni Section */}
+
       <Subs />
       <Footer />
     </>

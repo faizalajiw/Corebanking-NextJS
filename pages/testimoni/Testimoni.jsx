@@ -16,14 +16,16 @@ export default function Testimoni() {
         </p>
       </div>
       <div className=" flex flex-col items-center justify-center mb-20 gap-5 md:items-start md:flex-wrap md:flex-row">
-        {testimoni.slice(0, 9).map((t) => (
-          <TestimoniCard
-            name={t.name}
-            image={t.image}
-            job={t.job}
-            review={t.review}
-            star={t.star}
-          />
+        {testimoni.slice(0, 9).map((val, index) => (
+          <div key={index}>
+            <TestimoniCard
+              name={val.name}
+              image={val.image}
+              job={val.job}
+              review={val.review}
+              star={val.star}
+            />
+          </div>
         ))}
       </div>
       <Subs />

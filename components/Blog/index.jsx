@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import { Card } from "flowbite-react";
 
 export const Blog = ({ image, header, content, date }) => {
   return (
@@ -14,7 +13,12 @@ export const Blog = ({ image, header, content, date }) => {
           <h2 className=" mb-3 text-xs text-black font-light md:font-normal">
             {date}
           </h2>
-          <p className=" text-black font-light md:font-normal">{content}</p>
+          <p
+            className=" text-black font-light md:font-normal"
+            dangerouslySetInnerHTML={{
+              __html: content?.substring(0, 200) + "...",
+            }}
+          />
         </div>
       </div>
     </div>
