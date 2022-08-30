@@ -1,26 +1,26 @@
 import Link from "next/link";
-import { Banner } from "../components/Banner";
-import { TestimoniCard } from "../components/TestimoniCard";
+import { Header }   from "../components/Header";
 import { Subs } from "../components/Subs";
+import { TestimoniCard } from "../components/TestimoniCard";
 import { Footer } from "../components/Footer";
-import { Blog } from "../components/Blog";
 import { testimoni } from "../Data";
+import { Blog } from "../components/Blog";
 import { blog } from "../Data";
+import { Mitra } from "../components/Mitra";
+import { Banner } from "../components/Banner";
 import { Section } from "../components/Section";
 import { Feature } from "../components/Feature";
 import { JangkauanKami } from "../components/JangkauanKami";
-import Header from "../components/Header";
-import { Mitra } from "../components/Mitra";
 
 export default function Home() {
   return (
     <>
-      <Header />
-      <Banner />
+      <Header/>
+      <Banner/>
       <div className="py-20 md:py-40">
-        <Section />
-        <Feature />
-        <JangkauanKami />
+        <Section/>
+        <Feature/>
+        <JangkauanKami/>
       </div>
       {/* Blog Section */}
       <div className="pb-16">

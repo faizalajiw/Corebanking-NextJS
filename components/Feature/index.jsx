@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-export default function Feature() {
+export const Feature = () => {
   return (
     <div className=" bg-white flex-col flex gap-16 md:gap-10 md:px-32">
       {/* Feature 1 */}
@@ -101,4 +101,4 @@ export default function Feature() {
       </div>
     </div>
   );
-}
+};

@@ -4,7 +4,7 @@ import { Subs } from "../../components/Subs";
 import { GoMail, GoLocation } from "react-icons/go";
 import { AiOutlinePhone } from "react-icons/ai";
 import { Map } from "../../components/Map";
-import Header from "../../components/Header";
+import { Header } from "../../components/Header";
 
 export default function Kontak() {
   return (

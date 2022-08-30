@@ -2,7 +2,7 @@ import { fitur } from "../../Data";
 import { Subs } from "../../components/Subs";
 import { Footer } from "../../components/Footer";
 import { HiOutlineCheckCircle } from "react-icons/hi";
-import  Header  from "../../components/Header";
+import { Header } from "../../components/Header";
 
 export default function CreditScoring() {
   return (

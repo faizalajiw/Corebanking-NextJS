@@ -1,13 +1,15 @@
 import React from "react";
 import { Dropdown } from "flowbite-react";
+import Link from "next/link";
 
-export default function fitur() {
+export const Fitur = () => {
   return (
     <Dropdown arrowIcon={false} inline={true} label={" Fitur "}>
-      <Dropdown.Item>Credit Scoring</Dropdown.Item>
-      <Dropdown.Item>Mobile Banking</Dropdown.Item>
-      <Dropdown.Item>Verifikasi KYC</Dropdown.Item>
-      <Dropdown.Item>Laporan Terperinci</Dropdown.Item>
+      <Dropdown.Item> <Link href="/fitur/CreditScoring"><a>Credit Scoring</a></Link></Dropdown.Item>
+      <Dropdown.Item> <Link href="/fitur/Mbanking"><a>Mobile Banking</a></Link></Dropdown.Item>
+      <Dropdown.Item><Link href="/fitur/KYC"><a>Verifikasi KYC</a></Link></Dropdown.Item>
+      <Dropdown.Item><Link href="fitur/LaporanTerperinci"><a>Laporan Terperinci</a></Link></Dropdown.Item>
     </Dropdown>
+
   );
-}
+};

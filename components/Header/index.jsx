@@ -1,9 +1,11 @@
+import React from "react";
 import { useState } from "react";
-import Fitur from "../Fitur";
+import { Fitur } from "../Fitur";
 import { BsPlus } from "react-icons/bs";
 
 
-export default function NavBar() {
+export const Header = () => {
+
   const [navbar, setNavbar] = useState(false);
 
   return (
