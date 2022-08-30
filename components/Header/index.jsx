@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Fitur } from "../Fitur";
-import { IoIosArrowDown } from "react-icons/io";
+import Link from "next/link";
 
 export const Header = () => {
   const [navbar, setNavbar] = useState(false);
@@ -65,19 +65,19 @@ export const Header = () => {
           >
             <ul className="place-items-center justify-center space-y-8 md:flex md:space-x-12 md:space-y-0">
               <li className="text-gray-200 hover:text-green-400">
-                <a href="/">Home</a>
+                <Link href="/">Home</Link>
               </li>
               <li className="text-gray-200 hover:text-green-400 flex flex-row">
                 <Fitur /> 
               </li>
               <li className="text-gray-200 hover:text-green-400">
-                <a href="/blog/Blogpage">Blog</a>
+                <Link href="/blog/Blogpage">Blog</Link>
               </li>
               <li className="text-gray-200 hover:text-green-400">
-                <a href="/faq/FAQ">FAQ</a>
+                <Link href="/faq/FAQ">FAQ</Link>
               </li>
               <li className="text-gray-200 hover:text-green-400">
-                <a href="/kontak/Kontak">Kontak</a>
+                <Link href="/kontak/Kontak">Kontak</Link>
               </li>
             </ul>
           </div>
