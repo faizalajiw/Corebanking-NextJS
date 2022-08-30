@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function JangkauanKami() {
+export const JangkauanKami = () => {
   return (
     <>
       <div className="flex flex-col bg-jangkauan-pattern bg-center bg-cover h-[410px] md:h-[810px] mt-24">

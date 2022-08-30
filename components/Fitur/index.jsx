@@ -1,7 +1,7 @@
 import React from "react";
 import { Dropdown } from "flowbite-react";
 
-export default function fitur() {
+export const Fitur = () => {
   return (
     <Dropdown arrowIcon={false} inline={true} label={" Fitur "}>
       <Dropdown.Item>Credit Scoring</Dropdown.Item>
@@ -10,4 +10,4 @@ export default function fitur() {
       <Dropdown.Item>Laporan Terperinci</Dropdown.Item>
     </Dropdown>
   );
-}
+};
