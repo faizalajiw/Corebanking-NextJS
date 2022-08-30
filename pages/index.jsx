@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Header } from "../components/Header";
 import { Banner } from "../components/Banner";
 import { TestimoniCard } from "../components/TestimoniCard";
 import { Subs } from "../components/Subs";
@@ -10,12 +9,9 @@ import { blog } from "../Data";
 import { Section } from "../components/Section";
 import { Feature } from "../components/Feature";
 import { JangkauanKami } from "../components/JangkauanKami";
-<<<<<<< HEAD
-import Menu from "../components/Head";
 
-=======
+import Menu from "../components/Head";
 import { Mitra } from "../components/Mitra";
->>>>>>> c96264bd8d5edad31fd754f2879ab300adda34c0
 
 export default function Home() {
   return (
