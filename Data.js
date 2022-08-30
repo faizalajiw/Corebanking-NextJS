@@ -141,23 +141,23 @@ export const blog = [
 export const mitra = [
   {
     id: 1,
-    image: "img/menantea.png",
+    image: "../img/menantea.png",
   },
   {
     id: 2,
-    image: "img/Logo OVO.png",
+    image: "../img/Logo OVO.png",
   },
   {
     id: 3,
-    image: "img/Logo DANA.png",
+    image: "../img/Logo DANA.png",
   },
   {
     id: 4,
-    image: "img/Honeywell.png",
+    image: "../img/Honeywell.png",
   },
   {
     id: 5,
-    image: "img/aws.png",
+    image: "../img/aws.png",
   },
 ];
 
