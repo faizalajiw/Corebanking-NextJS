@@ -10,11 +10,14 @@ import { blog } from "../Data";
 import { Section } from "../components/Section";
 import { Feature } from "../components/Feature";
 import { JangkauanKami } from "../components/JangkauanKami";
+import Menu from "../components/Head";
+
 
 export default function Home() {
   return (
     <>
-      <Header />
+      <Menu />
+      {/* <Header /> */}
       <Banner />
       <div className="bg-white py-20 md:py-40">
         <Section />
