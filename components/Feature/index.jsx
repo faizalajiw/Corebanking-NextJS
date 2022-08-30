@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-export const Feature = () => {
+export default function Feature() {
   return (
     <div className=" bg-white flex-col flex gap-16 md:gap-10 md:px-32">
       {/* Feature 1 */}
@@ -10,10 +10,10 @@ export const Feature = () => {
           <img src="img/credit scoring.png" alt="" className="w-64 md:w-96" />
         </div>
         <div className="container flex flex-col items-center md:items-start px-10">
-          <h1 className="text-3xl md:font-bold my-5 md:mb-10 text-center md:text-left">
+          <h1 className="text-2xl md:text-3xl font-semibold md:font-bold my-5 md:mb-10 text-center md:text-left">
             Credit Scoring
           </h1>
-          <p className="mb-10 md:text-lg font-light text-justify md:font-normal">
+          <p className="mb-8 md:text-lg font-light text-justify md:font-normal">
             Pelayanan untuk mengecek tingkat kelayakan kredit untuk mendapatkan
             produk seperti Kredit Tanpa Agunan (KTA), Kredit Pemilikan Rumah
             (KPR), kartu kredit, dan lain-lain.
@@ -31,10 +31,10 @@ export const Feature = () => {
           <img src="img/mobile banking.png" alt="" className="w-64 md:w-96" />
         </div>
         <div className="container flex flex-col items-center md:items-start px-10">
-          <h1 className="text-3xl md:font-bold my-5 md:mb-10 text-center md:text-left">
+          <h1 className="text-2xl md:text-3xl font-semibold md:font-bold my-5 md:mb-10 text-center md:text-left">
             Mobile Banking
           </h1>
-          <p className="mb-10 font-light text-justify md:font-normal md:text-lg">
+          <p className="mb-8 font-light text-justify md:font-normal md:text-lg">
             Cek saldo rekening, transfer dana, dan bayar tagihan Anda dengan
             lebih mudah dan nyaman melalui M-Banking CREDIS.
           </p>
@@ -54,10 +54,10 @@ export const Feature = () => {
           <img src="img/kyc.png" alt="" className="w-64 md:w-96" />
         </div>
         <div className="container flex flex-col items-center md:items-start px-10">
-          <h1 className="text-3xl md:font-bold my-5 md:mb-10 text-center md:text-left">
+          <h1 className="text-2xl md:text-3xl font-semibold md:font-bold my-5 md:mb-10 text-center md:text-left">
             Verifikasi KYC
           </h1>
-          <p className="mb-10 font-light md:text-lg text-justify md:font-normal">
+          <p className="mb-8 font-light md:text-lg text-justify md:font-normal">
             Identifikasi, verifikasi, dan pemantauan transaksi nasabah demi
             melindungi keamanan data dan kenyamanan layanan finansial Anda.
           </p>
@@ -78,10 +78,10 @@ export const Feature = () => {
           />
         </div>
         <div className="container flex flex-col items-center md:items-start px-10">
-          <h1 className="text-3xl md:font-bold my-5 md:mb-10 text-center md:text-left">
+          <h1 className="text-2xl md:text-3xl font-semibold md:font-bold my-5 md:mb-10 text-center md:text-left">
             Laporan Terperinci
           </h1>
-          <p className="mb-10 font-light md:text-lg text-justify md:font-normal">
+          <p className="mb-8 font-light md:text-lg text-justify md:font-normal">
             Semua riwayat transfer, mutasi, dan sistem keuangan Anda direkap
             secara terperinci dan bisa di unduh.
           </p>
@@ -101,4 +101,4 @@ export const Feature = () => {
       </div>
     </div>
   );
-};
+}

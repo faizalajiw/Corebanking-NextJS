@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Map = () => {
+export default function Map() {
   return (
     <div className="flex h-auto w-full px-3 md:px-32">
       <iframe

@@ -9,25 +9,23 @@ import { blog } from "../Data";
 import { Section } from "../components/Section";
 import { Feature } from "../components/Feature";
 import { JangkauanKami } from "../components/JangkauanKami";
-
-import Header from "../components/Header";
+import Header from "../components/Header"
 import { Mitra } from "../components/Mitra";
 
 export default function Home() {
   return (
     <>
       <Header />
-
       <Banner />
-      <div className="bg-white py-20 md:py-40">
+      <div className="py-20 md:py-40">
         <Section />
         <Feature />
         <JangkauanKami />
       </div>
       {/* Blog Section */}
-      <div className="bg-white pb-16">
-        <div className="text-center px-7 mb-20 text-bluecredis md:px-32">
-          <h1 className="text-3xl font-semibold mb-3 md:font-bold">Blog</h1>
+      <div className="pb-16">
+        <div className="text-center px-6 text-bluecredis md:px-24">
+          <h1 className="text-2xl font-bold mb-3 md:text-3xl">Blog</h1>
           <p className="font-light md:font-normal">
             Perkembangan artikel mengenai Core Banking System
           </p>
@@ -55,9 +53,9 @@ export default function Home() {
       {/* End Blog Section */}
 
       {/* Mitra */}
-      <div className="bg-white pb-16 pt-10">
-        <div className="text-center px-7 text-bluecredis md:px-24 place-items-center">
-          <h1 className="text-xl md:text-3xl mb-10 font-semibold md:font-bold">
+      <div className="pb-16 pt-10">
+        <div className="text-center px-6 text-bluecredis md:px-24">
+          <h1 className="text-2xl font-bold mb-3 md:text-3xl">
             Telah Dipercaya Oleh 50+ Mitra
           </h1>
           <Mitra />
@@ -66,11 +64,9 @@ export default function Home() {
       {/* End Mitra Section */}
 
       {/* Testimoni Section */}
-      <div className="bg-white pb-16 pt-10">
-        <div className="text-center px-7 mb-20 text-bluecredis md:px-32">
-          <h1 className="text-3xl font-semibold mb-3 md:font-bold">
-            Testimoni
-          </h1>
+      <div className="pb-16 pt-10">
+        <div className="text-center px-6 text-bluecredis md:px-24">
+          <h1 className="text-2xl font-bold mb-3 md:text-3xl">Testimoni</h1>
           <p className="font-light md:font-normal">
             Apa yang dikatakan pelanggan mengenai kami
           </p>
