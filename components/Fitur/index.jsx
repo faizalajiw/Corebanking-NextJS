@@ -5,10 +5,10 @@ import Link from "next/link";
 export const Fitur = () => {
   return (
     <Dropdown arrowIcon={true} inline={true} label={" Fitur "}>
-      <Dropdown.Item> <Link href="/fitur/CreditScoring"><a>Credit Scoring</a></Link></Dropdown.Item>
-      <Dropdown.Item> <Link href="/fitur/Mbanking"><a>Mobile Banking</a></Link></Dropdown.Item>
-      <Dropdown.Item><Link href="/fitur/KYC"><a>Verifikasi KYC</a></Link></Dropdown.Item>
-      <Dropdown.Item><Link href="fitur/LaporanTerperinci"><a>Laporan Terperinci</a></Link></Dropdown.Item>
+      <Dropdown.Item> <Link href="/fitur/CreditScoring">Credit Scoring</Link></Dropdown.Item>
+      <Dropdown.Item> <Link href="/fitur/Mbanking">Mobile Banking</Link></Dropdown.Item>
+      <Dropdown.Item><Link href="/fitur/KYC">Verifikasi KYC</Link></Dropdown.Item>
+      <Dropdown.Item><Link href="fitur/LaporanTerperinci">Laporan Terperinci</Link></Dropdown.Item>
     </Dropdown>
 
   );
