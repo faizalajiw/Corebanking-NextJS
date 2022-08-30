@@ -8,7 +8,7 @@ export const Fitur = () => {
       <Dropdown.Item> <Link href="/fitur/CreditScoring">Credit Scoring</Link></Dropdown.Item>
       <Dropdown.Item> <Link href="/fitur/Mbanking">Mobile Banking</Link></Dropdown.Item>
       <Dropdown.Item><Link href="/fitur/KYC">Verifikasi KYC</Link></Dropdown.Item>
-      <Dropdown.Item><Link href="fitur/LaporanTerperinci">Laporan Terperinci</Link></Dropdown.Item>
+      <Dropdown.Item><Link href="/fitur/LaporanTerperinci">Laporan Terperinci</Link></Dropdown.Item>
     </Dropdown>
 
   );
