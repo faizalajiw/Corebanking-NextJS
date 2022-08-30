@@ -52,6 +52,17 @@ export default function Home() {
       </div>
       {/* End Blog Section */}
 
+      {/* Mitra */}
+      <div className="bg-white pb-16 pt-10">
+        <div className="text-center px-7 text-bluecredis md:px-24 place-items-center">
+          <h1 className="text-xl md:text-3xl mb-10 font-semibold md:font-bold">
+            Telah Dipercaya Oleh 50+ Mitra
+          </h1>
+          <Mitra />
+        </div>
+      </div>
+      {/* End Mitra Section */}
+
       {/* Testimoni Section */}
       <div className="bg-white pb-16 pt-10">
         <div className="text-center px-7 mb-20 text-bluecredis md:px-32">
@@ -85,16 +96,6 @@ export default function Home() {
       </div>
       {/* End Testimoni Section */}
 
-      {/* Mitra */}
-      <div className="bg-white pb-16 pt-10">
-        <div className="text-center px-7 mb-20 text-bluecredis md:px-32">
-          <h1 className="text-3xl font-semibold mb-3 md:font-bold">
-            Telah Dipercaya Oleh 50+ Mitra
-          </h1>
-          <Mitra />
-        </div>
-      </div>
-      {/* End Mitra Section */}
       <Subs />
       <Footer />
     </>

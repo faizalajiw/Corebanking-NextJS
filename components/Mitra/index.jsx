@@ -3,16 +3,22 @@ import { mitra } from "../../Data";
 
 export const Mitra = () => {
   return (
-    <div className="bg-white">
-      {mitra.map((val, index) => {
-        return (
-          <div key={index}>
-            <div className="flex flex-col space-x-2 px-32">
-              {val.image}
-            </div>
-          </div>
-        );
-      })}
+    <div className="flex flex-row px-4 gap-x-5 place-items-center md:px-20 md:gap-x-12">
+      <div>
+        <img src={mitra[0].image} alt="" />
+      </div>
+      <div>
+        <img src={mitra[1].image} alt="" />
+      </div>
+      <div>
+        <img src={mitra[2].image} alt="" />
+      </div>
+      <div>
+        <img src={mitra[3].image} alt="" />
+      </div>
+      <div>
+        <img src={mitra[4].image} alt="" />
+      </div>
     </div>
   );
 };
