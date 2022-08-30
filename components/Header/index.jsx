@@ -2,7 +2,7 @@ import { useState } from "react";
 import Fitur from "../Fitur";
 import { BsPlus } from "react-icons/bs";
 
-export const NavBar = () => {
+export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
 
   return (
