@@ -39,7 +39,7 @@ export default function Blogpage() {
           </div>
         </div>
 
-        <div className=" flex flex-col gap-5 justify-center items-center md:items-start md:flex-row md:flex-wrap md:gap-14 md:px-32 pt-10">
+        <div className="grid grid-cols-3 gap-5 justify-center place-items-center md:gap-14 md:px-32 pt-10">
           {blog.slice(0, 6).map((val, index) => (
             <div key={index}>
               <Blog
