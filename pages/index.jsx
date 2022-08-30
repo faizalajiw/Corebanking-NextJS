@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Header } from "../components/Header";
 import { Banner } from "../components/Banner";
 import { TestimoniCard } from "../components/TestimoniCard";
 import { Subs } from "../components/Subs";
@@ -10,12 +9,15 @@ import { blog } from "../Data";
 import { Section } from "../components/Section";
 import { Feature } from "../components/Feature";
 import { JangkauanKami } from "../components/JangkauanKami";
+
+import Menu from "../components/Head";
 import { Mitra } from "../components/Mitra";
 
 export default function Home() {
   return (
     <>
-      <Header />
+      <Menu />
+      {/* <Header /> */}
       <Banner />
       <div className="py-20 md:py-40">
         <Section />
