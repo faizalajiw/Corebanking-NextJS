@@ -7,7 +7,7 @@ import {
 } from "react-icons/fa";
 import Link from "next/link";
 
-export const Footer = () => {
+export default function Footer() {
   return (
     <div className=" bg-bluecredis">
       <div className="bg-bluecredis flex pt-16 flex-col px-10 gap-6 mb-5 md:flex-row md:px-32 ">

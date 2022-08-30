@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Section = () => {
+export default function Section() {
   return (
     <>
       <div className="text-center px-7 pb-10 text-bluecredis md:px-24">

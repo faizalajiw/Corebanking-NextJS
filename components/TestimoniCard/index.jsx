@@ -1,7 +1,7 @@
 import React from "react";
 import { FaStar } from "react-icons/fa";
 
-export const TestimoniCard = ({ image, name, job, review, star }) => {
+export default function TestimoniCard ({ image, name, job, review, star }) {
   return (
     <div>
       <div className="bg-grey w-80 h-auto rounded-xl flex-row px-6 py-5">

@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Subs = () => {
+export default function Subs() {
   return (
     <div className="bg-bluecredis flex px-10 pt-5 md:px-32">
       <div className="container flex-[160%] text-center md:text-left">

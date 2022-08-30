@@ -9,15 +9,13 @@ import { blog } from "../Data";
 import { Section } from "../components/Section";
 import { Feature } from "../components/Feature";
 import { JangkauanKami } from "../components/JangkauanKami";
-
-import Header from "../components/Header";
+import { Header } from "../components/Header";
 import { Mitra } from "../components/Mitra";
 
 export default function Home() {
   return (
     <>
       <Header />
-
       <Banner />
       <div className="py-20 md:py-40">
         <Section />
@@ -68,9 +66,7 @@ export default function Home() {
       {/* Testimoni Section */}
       <div className="pb-16 pt-10">
         <div className="text-center px-6 text-bluecredis md:px-24">
-          <h1 className="text-2xl font-bold mb-3 md:text-3xl">
-            Testimoni
-          </h1>
+          <h1 className="text-2xl font-bold mb-3 md:text-3xl">Testimoni</h1>
           <p className="font-light md:font-normal">
             Apa yang dikatakan pelanggan mengenai kami
           </p>

@@ -1,7 +1,6 @@
 import React from "react";
-import Link from "next/link";
 
-export const Blog = ({ image, header, content, date }) => {
+export default function Blog ({ image, header, content, date }) {
   return (
     <div className=" bg-white">
       <div className=" w-80 h-auto flex-row px-6 py-5">

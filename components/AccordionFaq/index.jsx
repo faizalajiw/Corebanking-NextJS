@@ -1,7 +1,7 @@
 import React from "react";
 import { IoIosArrowDown } from "react-icons/io";
 
-export const Accordion = ({ title, subtitle }) => {
+export default function Accordion ({ title, subtitle }) {
   return (
     <div className=" mx-6 md:mx-32">
       <div className=" relative w-full overflow-hidden rounded-md border border-slate-200">

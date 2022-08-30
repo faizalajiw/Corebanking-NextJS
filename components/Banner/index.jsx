@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Banner = () => {
+export default function Banner () {
   return (
     <div className="bg-cover bg-center bg-no-repeat bg-hero-pattern py-28 md:py-[10.5rem] md:px-[31.5]">
       <div className="place-items-center grid grid-cols-1 gap-12 md:mx-40 md:grid md:grid-cols-2 md:gap-20">
