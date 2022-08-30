@@ -1,16 +1,14 @@
 import React from "react";
 import { useState } from "react";
 import { Fitur } from "../Fitur";
-import { BsPlus } from "react-icons/bs";
-
+import { IoIosArrowDown } from "react-icons/io";
 
 export const Header = () => {
-
   const [navbar, setNavbar] = useState(false);
 
   return (
     <nav className="w-full bg-bluecredis shadow fixed">
-      <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+      <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-16">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <a href="/">
@@ -24,13 +22,15 @@ export const Header = () => {
             <div className="md:hidden">
               <button
                 className="p-2 text-gray-200 rounded-md outline-none focus:border-gray-400 focus:border"
-                onClick={() => setNavbar(!navbar)}>
+                onClick={() => setNavbar(!navbar)}
+              >
                 {navbar ? (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="w-6 h-6"
                     viewBox="0 0 20 20"
-                    fill="currentColor">
+                    fill="currentColor"
+                  >
                     <path
                       fillRule="evenodd"
                       d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
@@ -44,7 +44,8 @@ export const Header = () => {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    strokeWidth={2}>
+                    strokeWidth={2}
+                  >
                     <path
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -58,32 +59,33 @@ export const Header = () => {
         </div>
         <div>
           <div
-            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+            className={`flex-1 justify-self-center pb-3 mt-8 md:px-36 md:block md:pb-0 md:mt-0 ${
               navbar ? "block" : "hidden"
-            }`}>
-            <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-              <li className="text-gray-200 hover:text-blue-600">
+            }`}
+          >
+            <ul className="place-items-center justify-center space-y-8 md:flex md:space-x-12 md:space-y-0">
+              <li className="text-gray-200 hover:text-green-400">
                 <a href="/">Home</a>
               </li>
-              <li className="text-gray-200 hover:text-blue-600 flex flex-row">
-                <Fitur /> <BsPlus className=" w-4" />
+              <li className="text-gray-200 hover:text-green-400 flex flex-row">
+                <Fitur /> 
               </li>
-              <li className="text-gray-200 hover:text-blue-600">
+              <li className="text-gray-200 hover:text-green-400">
                 <a href="/blog/Blogpage">Blog</a>
               </li>
-              <li className="text-gray-200 hover:text-blue-600">
+              <li className="text-gray-200 hover:text-green-400">
                 <a href="/faq/FAQ">FAQ</a>
               </li>
-              <li className="text-gray-200 hover:text-blue-600">
+              <li className="text-gray-200 hover:text-green-400">
                 <a href="/kontak/Kontak">Kontak</a>
               </li>
             </ul>
           </div>
-          <div className="absolute bottom-3 md:right-8 md:bottom-4  right-16 border border-green-400 text-green-400 py-2 px-7 rounded-lg hover:bg-green-400 hover:text-white inline-block">
+          <div className="absolute bottom-3 md:right-16 md:bottom-4  right-16 border border-green-400 text-green-400 py-2 px-7 rounded-lg hover:bg-green-400 hover:text-white inline-block">
             <button>Daftar</button>
           </div>
         </div>
       </div>
     </nav>
   );
-}
+};
