@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Fitur from "../Fitur";
 import { BsPlus } from "react-icons/bs";
+import Link from "next/link";
 
 export default function NavBar() {
     const [navbar, setNavbar] = useState(false);
@@ -10,9 +11,9 @@ export default function NavBar() {
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
-                        <a href="/">
+                        <Link href="/">
                             <img src="/img/Logo.png" className="mr-3 h-7 md:h-8" alt="Credis Logo" />
-                        </a>
+                        </Link>
 
                         <div className="md:hidden">
                             <button
@@ -60,19 +61,19 @@ export default function NavBar() {
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                             <li className="text-gray-200 hover:text-blue-600">
-                                <a href="/">Home</a>
+                                <Link href="/">Home</Link>
                             </li>
                             <li className="text-gray-200 hover:text-blue-600 flex flex-row">
                                 <Fitur /> <BsPlus className=" w-4" />
                             </li>
                             <li className="text-gray-200 hover:text-blue-600">
-                                <a href="/blog/Blogpage">Blog</a>
+                                <Link href="/blog/Blogpage">Blog</Link>
                             </li>
                             <li className="text-gray-200 hover:text-blue-600">
-                                <a href="/faq/FAQ">FAQ</a>
+                                <Link href="/faq/FAQ">FAQ</Link>
                             </li>
                             <li className="text-gray-200 hover:text-blue-600">
-                                <a href="/kontak/Kontak">Kontak</a>
+                                <Link href="/kontak/Kontak">Kontak</Link>
                             </li>
 
                         </ul>

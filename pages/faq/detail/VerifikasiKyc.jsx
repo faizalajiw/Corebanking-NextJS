@@ -1,6 +1,6 @@
 import React from "react";
 import { Accordion } from "../../../components/AccordionFaq";
-import { Header } from "../../../components/Header";
+import Header from "../../../components/Header";
 import { Footer } from "../../../components/Footer";
 import { Subs } from "../../../components/Subs";
 import { faqVerifikasiKyc } from "../../../Data";

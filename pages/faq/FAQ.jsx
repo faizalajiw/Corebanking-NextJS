@@ -1,5 +1,5 @@
 import { Footer } from "../../components/Footer";
-import { Header } from "../../components/Header";
+import Header from "../../components/Header";
 import { Subs } from "../../components/Subs";
 import { FaCreditCard } from "react-icons/fa";
 import { MdPhoneAndroid } from "react-icons/md";
