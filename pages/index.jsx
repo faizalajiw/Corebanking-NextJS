@@ -10,14 +10,14 @@ import { Section } from "../components/Section";
 import { Feature } from "../components/Feature";
 import { JangkauanKami } from "../components/JangkauanKami";
 
-import Menu from "../components/Head";
+import Header from "../components/Header";
 import { Mitra } from "../components/Mitra";
 
 export default function Home() {
   return (
     <>
-      <Menu />
-      {/* <Header /> */}
+      <Header />
+
       <Banner />
       <div className="py-20 md:py-40">
         <Section />
