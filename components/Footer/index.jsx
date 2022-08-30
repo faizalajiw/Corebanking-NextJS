@@ -11,6 +11,7 @@ export const Footer = () => {
   return (
     <div className=" bg-bluecredis">
       <div className="bg-bluecredis flex pt-16 flex-col px-10 gap-6 mb-5 md:flex-row md:px-32 ">
+        {/* Logo, Social, Addres */}
         <div className="container text-gray-400 flex flex-col content-center">
           <div className=" container flex justify-start content-center">
             <img
@@ -45,6 +46,9 @@ export const Footer = () => {
             </Link>
           </div>
         </div>
+        {/* End Logo, Social, Addres */}
+
+        {/* Fitur */}
         <div className="container text-left md:px-10">
           <h6 className=" pb-6 text-white">Fitur</h6>
           <ul className="text-sm text-gray-400 flex flex-col gap-2 md:gap-4">
@@ -62,6 +66,9 @@ export const Footer = () => {
             </li>
           </ul>
         </div>
+        {/* End Fitur */}
+
+        {/* Lainnya */}
         <div className="container text-left md:px-10">
           <h6 className=" pb-6 text-white">Lainnya</h6>
           <ul className="text-sm text-gray-400 flex flex-col gap-2 md:gap-4">
@@ -79,6 +86,7 @@ export const Footer = () => {
             </li>
           </ul>
         </div>
+        {/* End Lainnya */}
         <div className="container text-sm flex-col justify-center text-left">
           <h6 className=" pb-6 text-white">Get In</h6>
           <div className="container flex content-center justify-center gap-3 flex-col">
