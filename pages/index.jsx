@@ -44,7 +44,7 @@ export default function Home() {
         </div>
         <Link href="blog/Blogpage">
           <div className="flex justify-center mt-10">
-            <a className=" text-bluecredis font-bold cursor-pointer">
+            <a className=" text-bluecredis font-bold cursor-pointer text-center">
               Lihat Semua
             </a>
           </div>
