@@ -11,13 +11,13 @@ export const Header = () => {
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-16">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
-            <a href="/">
+            <Link href="/">
               <img
                 src="/img/Logo.png"
                 className="mr-3 h-7 md:h-8"
                 alt="Credis Logo"
               />
-            </a>
+            </Link>
 
             <div className="md:hidden">
               <button
