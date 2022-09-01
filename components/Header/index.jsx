@@ -7,7 +7,7 @@ export const Header = () => {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <nav className="w-full bg-bluecredis shadow fixed">
+    <nav className="w-full bg-bluecredis shadow fixed z-50">
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-16">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
