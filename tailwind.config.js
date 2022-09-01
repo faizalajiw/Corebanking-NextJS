@@ -1,6 +1,8 @@
 /**
  * @type {import('@types/tailwindcss/tailwind-config').TailwindConfig}
  */
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   content: [
     "./node_modules/flowbite-react/**/*.js",
@@ -13,16 +15,10 @@ module.exports = {
       colors: {
         transparent: "transparent",
         current: "currentColor",
-        white: "#ffffff",
-        purple: "#3f3cbb",
-        midnight: "#121063",
-        metal: "#565584",
-        tahiti: "#3ab7bf",
-        silver: "#ecebff",
-        "bubble-gum": "#ff77e9",
         bermuda: "#78dcca",
         bluecredis: "#13263C",
-        grey: "#f1f1f1",
+        whitecredis: "#f1f1f1",
+        blackcredis: "#1e1e1e",
       },
       borderRadius: {
         none: "0",
@@ -36,9 +32,9 @@ module.exports = {
         namikaze: "100%",
       },
       backgroundImage: {
-        'banner-pattern': "url('/img/Banner.svg')",
-        'hero-pattern': "url('/img/Hero.svg')",
-        'jangkauan-pattern': "url('/img/JangkauanBg.png')",
+        "banner-pattern": "url('/img/Banner.svg')",
+        "hero-pattern": "url('/img/Hero.svg')",
+        "jangkauan-pattern": "url('/img/JangkauanBg.png')",
       },
     },
   },

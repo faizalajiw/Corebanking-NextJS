@@ -5,10 +5,10 @@ export const JangkauanKami = () => {
     <>
       <div className="flex flex-col bg-jangkauan-pattern bg-center bg-cover h-[410px] md:h-[810px] mt-24">
         <div className="px-6 py-20 md:px-72 md:py-44 space-y-8">
-          <div className="text-xl md:text-4xl text-center font-semibold text-[#F1F1F1]">
+          <div className="text-xl md:text-4xl text-center font-semibold text-whitecredis">
             Sebarapa Luas Jangkauan Kami?
           </div>
-          <p className="text-sm md:text-xl text-center text-[#F1F1F1] text-opacity-70">
+          <p className="text-sm md:text-xl text-center text-whitecredis text-opacity-70">
             Kami selalu memperluas ekspansi pasar kami keseluruh Indonesia
             dengan itu dunia keuangan lebih aman dan terjaga
           </p>

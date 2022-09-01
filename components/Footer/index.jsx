@@ -50,7 +50,7 @@ export const Footer = () => {
 
         {/* Fitur */}
         <div className="container text-left md:px-10">
-          <h6 className=" pb-6 text-white">Fitur</h6>
+          <h6 className=" pb-6 text-whitecredis">Fitur</h6>
           <ul className="text-sm text-gray-400 flex flex-col gap-2 md:gap-4">
             <li className="hover:text-gray-300">
               <Link href="/fitur/CreditScoring">Credit Scoring</Link>
@@ -70,7 +70,7 @@ export const Footer = () => {
 
         {/* Lainnya */}
         <div className="container text-left md:px-10">
-          <h6 className=" pb-6 text-white">Lainnya</h6>
+          <h6 className=" pb-6 text-whitecredis">Lainnya</h6>
           <ul className="text-sm text-gray-400 flex flex-col gap-2 md:gap-4">
             <li className="hover:text-gray-300">
               <Link href="/lainnya/SyaratKetentuan">Syarat & Ketentuan</Link>
@@ -88,7 +88,7 @@ export const Footer = () => {
         </div>
         {/* End Lainnya */}
         <div className="container text-sm flex-col justify-center text-left">
-          <h6 className=" pb-6 text-white">Get In</h6>
+          <h6 className=" pb-6 text-whitecredis">Get In</h6>
           <div className="container flex content-center justify-center gap-3 flex-col">
             <Link href="/Error">
               <a target="_blank" rel="noopener noreferrer">

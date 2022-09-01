@@ -10,7 +10,7 @@ export default function DetailBlog() {
     <div>
       <Header />
       <div className=" md:px-32">
-        <div className=" text-center px-7 my-20 text-black md:px-32">
+        <div className=" text-center px-7 my-20 text-blackcredis md:px-32">
           <h1 className=" text-3xl font-semibold mb-3 md:font-bold">Blog</h1>
           <p className=" font-light md:font-normal">
             Perkembangan artikel mengenai Core Banking System

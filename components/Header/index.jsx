@@ -81,7 +81,7 @@ export const Header = () => {
               </li>
             </ul>
           </div>
-          <div className="absolute bottom-3 md:right-16 md:bottom-4  right-16 border border-green-400 text-green-400 py-2 px-7 rounded-lg hover:bg-green-400 hover:text-white inline-block">
+          <div className="absolute bottom-3 md:right-16 md:bottom-4  right-16 border border-green-400 text-green-400 py-2 px-7 rounded-lg hover:bg-green-400 hover:text-whitecredis inline-block">
             <button>Daftar</button>
           </div>
         </div>

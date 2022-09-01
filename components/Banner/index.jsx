@@ -11,7 +11,7 @@ export const Banner = () => {
             alt=" Cards Technology"
           />
         </div>
-        <div className="justify-center text-white">
+        <div className="justify-center text-whitecredis">
           <p className="text-2xl font-bold leading-normal md:text-4xl text-center">
             Credis
           </p>

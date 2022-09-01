@@ -9,8 +9,8 @@ export default function LaporanTerperinci() {
   return (
     <>
       <Header />
-      <div className=" bg-white flex flex-col items-center">
-        <h1 className=" text-black text-3xl font-bold my-10">
+      <div className=" bg-whitecredis flex flex-col items-center">
+        <h1 className=" text-blackcredis text-3xl font-bold my-10">
           Laporan Terperinci
         </h1>
         <div className=" mb-20">
