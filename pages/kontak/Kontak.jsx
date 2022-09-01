@@ -8,10 +8,10 @@ import { Header } from "../../components/Header";
 
 export default function Kontak() {
   return (
-    <div className="bg-whitecredis">
+    <>
       <Header />
-      <div className=" md:flex">
-        <div className="my-3 px-3 flex flex-col gap-3 md:flex-1 md:pl-32">
+      <div className="md:flex">
+        <div className="pt-32 pb-10 px-3 flex flex-col gap-3 md:flex-1 md:pl-32">
           <div className="container flex flex-col md:flex-none md:w-[700px]">
             <h1 className=" font-bold text-blackcredis text-3xl">Kontak Kami</h1>
             <p className=" text-gray-600">
@@ -96,6 +96,6 @@ export default function Kontak() {
       </div>
       <Subs />
       <Footer />
-    </div>
+    </>
   );
 }

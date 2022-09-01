@@ -9,7 +9,7 @@ export default function Blogpage() {
     <div>
       <Header />
       <section className="container p-3">
-        <div className="flex justify-center text-blackcredis font-semibold md:text-3xl text-2xl pt-4">
+        <div className="flex pt-20 justify-center text-blackcredis font-semibold md:text-3xl text-2xl">
           Blog
         </div>
         <div className="flex justify-center text-blackcredis text pt-3 text-center px-16  font-light md:font-normal">

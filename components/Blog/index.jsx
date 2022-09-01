@@ -16,7 +16,7 @@ export const Blog = ({ image, header, content, date }) => {
           <p
             className=" text-blackcredis font-light md:font-normal"
             dangerouslySetInnerHTML={{
-              __html: content?.substring(0, 200) + "...",
+              __html: content?.substring(0, 150) + "...",
             }}
           />
         </div>
