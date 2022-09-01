@@ -59,9 +59,9 @@ export const Header = () => {
         {/* Menu */}
         <div>
           <div
-            className={`flex-1 justify-self-center pb-3 mt-8 md:px-36 md:block md:pb-0 md:mt-0 ${navbar ? "block" : "hidden"
+            className={`flex-1 pb-3 mt-8 md:pr-64 md:block md:pb-0 md:mt-0 ${navbar ? "block" : "hidden"
               }`}>
-            <ul className="place-items-center justify-center space-y-8 md:flex md:space-x-12 md:space-y-0">
+            <ul className="place-items-center justify-center space-y-8 md:flex md:space-x-16 md:space-y-0">
               <li className="text-gray-200 hover:text-green-400">
                 <Link href="/">Home</Link>
               </li>
@@ -80,7 +80,7 @@ export const Header = () => {
             </ul>
           </div>
 
-          <div className="hmm absolute bottom-3 md:right-16 md:bottom-4  right-16 border border-green-400 text-green-400 py-2 px-7 rounded-lg hover:bg-green-400 hover:text-white inline-block shadow-2xl">
+          <div className="absolute bottom-3 md:right-32 md:bottom-4 right-16 border border-green-400 text-green-400 py-2 px-7 rounded-lg hover:bg-green-400 hover:text-whitecredis inline-block">
             <button>Daftar</button>
           </div>
 
