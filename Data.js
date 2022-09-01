@@ -1,7 +1,7 @@
 export const testimoni = [
   {
     id: 1,
-    image: "img/user testi 1.png",
+    image: "../../img/user testi 1.png",
     name: "Martin Sinahaan",
     job: "Pekerja Lepas",
     review:
@@ -10,7 +10,7 @@ export const testimoni = [
   },
   {
     id: 2,
-    image: "img/user testi 2.png",
+    image: "../../img/user testi 2.png",
     name: "Martin Sin",
     job: "Pekerja Lepas",
     review:
@@ -19,7 +19,7 @@ export const testimoni = [
   },
   {
     id: 3,
-    image: "img/user testi 3.png",
+    image: "../../img/user testi 3.png",
     name: "Martin Sintak",
     job: "Pekerja Lepas",
     review:

@@ -24,7 +24,7 @@ export const Subs = () => {
           </button>
         </form>
       </div>
-      <div className="container hidden md:flex">
+      <div className="container hidden md:flex md:pl-10">
         <img src="../../img/subscribe.png" alt="" className=" w-80" />
       </div>
     </div>

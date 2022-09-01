@@ -44,7 +44,7 @@ export default function Home() {
         </div>
         <Link href="blog/Blogpage">
           <div className="flex justify-center mt-10">
-            <a className=" text-bluecredis font-bold cursor-pointer">
+            <a className=" text-bluecredis font-bold cursor-pointer text-center">
               Lihat Semua
             </a>
           </div>
@@ -66,8 +66,8 @@ export default function Home() {
       {/* Testimoni Section */}
       <div className="pb-16 pt-10">
         <div className="text-center px-6 text-bluecredis md:px-24">
-          <h1 className="text-2xl font-bold mb-3 md:text-3xl">Testimoni</h1>
-          <p className="font-light md:font-normal">
+          <h1 className="text-2xl font-bold mb-3 md:text-3xl ">Testimoni</h1>
+          <p className="font-light md:font-normal pb-8">
             Apa yang dikatakan pelanggan mengenai kami
           </p>
         </div>
@@ -86,7 +86,7 @@ export default function Home() {
         </div>
         <Link href="testimoni/Testimoni">
           <div className="flex justify-center mt-10">
-            <a className=" text-bluecredis font-bold cursor-pointer">
+            <a className=" text-bluecredis font-bold cursor-pointer text-center">
               Lihat Semua
             </a>
           </div>
