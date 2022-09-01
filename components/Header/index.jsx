@@ -22,15 +22,13 @@ export const Header = () => {
             <div className="md:hidden">
               <button
                 className="p-2 text-gray-200 rounded-md outline-none focus:border-gray-400 focus:border"
-                onClick={() => setNavbar(!navbar)}
-              >
+                onClick={() => setNavbar(!navbar)}>
                 {navbar ? (
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="w-6 h-6"
                     viewBox="0 0 20 20"
-                    fill="currentColor"
-                  >
+                    fill="currentColor">
                     <path
                       fillRule="evenodd"
                       d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
@@ -44,8 +42,7 @@ export const Header = () => {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    strokeWidth={2}
-                  >
+                      strokeWidth={2}>
                     <path
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -59,16 +56,14 @@ export const Header = () => {
         </div>
         <div>
           <div
-            className={`flex-1 justify-self-center pb-3 mt-8 md:px-36 md:block md:pb-0 md:mt-0 ${
-              navbar ? "block" : "hidden"
-            }`}
-          >
+            className={`flex-1 justify-self-center pb-3 mt-8 md:px-36 md:block md:pb-0 md:mt-0 ${navbar ? "block" : "hidden"
+              }`}>
             <ul className="place-items-center justify-center space-y-8 md:flex md:space-x-12 md:space-y-0">
               <li className="text-gray-200 hover:text-green-400">
                 <Link href="/">Home</Link>
               </li>
               <li className="text-gray-200 hover:text-green-400 flex flex-row">
-                <Fitur /> 
+                <Fitur />
               </li>
               <li className="text-gray-200 hover:text-green-400">
                 <Link href="/blog/Blogpage">Blog</Link>
@@ -81,11 +76,20 @@ export const Header = () => {
               </li>
             </ul>
           </div>
-          <div className="absolute bottom-3 md:right-16 md:bottom-4  right-16 border border-green-400 text-green-400 py-2 px-7 rounded-lg hover:bg-green-400 hover:text-white inline-block">
+
+          <div className="hmm absolute bottom-3 md:right-16 md:bottom-4  right-16 border border-green-400 text-green-400 py-2 px-7 rounded-lg hover:bg-green-400 hover:text-white inline-block shadow-2xl">
             <button>Daftar</button>
           </div>
+
+
         </div>
       </div>
+      <style jsx global>{`
+        .hmm:hover{
+          box-shadow: 0 0 3px green;
+        }
+        `}
+      </style>
     </nav>
   );
 };
