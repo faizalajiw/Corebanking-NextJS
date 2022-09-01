@@ -89,7 +89,7 @@ export const Header = () => {
       </div>
       <style jsx global>{`
         .hmm:hover{
-          box-shadow: 0 0 3px green;
+          box-shadow: 0 0 4px green;
         }
         `}
       </style>
