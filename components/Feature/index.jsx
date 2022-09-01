@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const Feature = () => {
   return (
-    <div className=" bg-whitecredis flex-col flex gap-16 md:gap-10 md:px-32">
+    <div className="flex-col flex gap-16 md:gap-10 md:px-32">
       {/* Feature 1 */}
       <div className=" flex flex-col text-bluecredis md:flex-row">
         <div className="container flex justify-center mb-3">
