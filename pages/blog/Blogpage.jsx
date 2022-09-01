@@ -9,10 +9,10 @@ export default function Blogpage() {
     <div>
       <Header />
       <section className="container p-3">
-        <div className="flex justify-center text-black font-semibold md:text-3xl text-2xl pt-4">
+        <div className="flex justify-center text-blackcredis font-semibold md:text-3xl text-2xl pt-4">
           Blog
         </div>
-        <div className="flex justify-center text-black text pt-3 text-center px-16  font-light md:font-normal">
+        <div className="flex justify-center text-blackcredis text pt-3 text-center px-16  font-light md:font-normal">
           Perkembangan Sistem Mengenai Core Banking System
         </div>
         <div className="flex flex-col md:flex-row px-10 space-x-1">

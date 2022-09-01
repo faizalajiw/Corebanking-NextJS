@@ -8,7 +8,7 @@ export default function KYC() {
   return (
     <>
       <Header />
-      <div className="bg-white">
+      <div className="bg-whitecredis">
         <div className="py-24">
           <div className="mx-6 font-semibold text-center text-bluecredis text-2xl md:text-4xl">
             {fitur[1].title}
@@ -18,7 +18,7 @@ export default function KYC() {
         <div className="flex flex-col-reverse mx-6 md:grid md:grid-cols-2 md:justify-items-center md:mx-32">
           {/* Col 1 */}
           <div>
-            <div className="text-[#1E1E1E] text-lg text-justify break-words my-10 font-medium md:text-2xl md:mb-14 md:mt-1">
+            <div className="text-blackcredis text-lg text-justify break-words my-10 font-medium md:text-2xl md:mb-14 md:mt-1">
               {fitur[1].subtitle}
             </div>
 

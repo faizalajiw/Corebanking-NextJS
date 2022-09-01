@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const Feature = () => {
   return (
-    <div className=" bg-white flex-col flex gap-16 md:gap-10 md:px-32">
+    <div className=" bg-whitecredis flex-col flex gap-16 md:gap-10 md:px-32">
       {/* Feature 1 */}
       <div className=" flex flex-col text-bluecredis md:flex-row">
         <div className="container flex justify-center mb-3">
@@ -19,7 +19,7 @@ export const Feature = () => {
             (KPR), kartu kredit, dan lain-lain.
           </p>
           <Link href="/fitur/CreditScoring">
-            <button className="bg-green-400 hover:bg-green-500 text-lg rounded px-4 py-2 text-white">
+            <button className="bg-green-400 hover:bg-green-500 text-lg rounded px-4 py-2 text-whitecredis">
               Selengkapnya
             </button>
           </Link>
@@ -39,7 +39,7 @@ export const Feature = () => {
             lebih mudah dan nyaman melalui M-Banking CREDIS.
           </p>
           <Link href="/fitur/Mbanking">
-            <button className="bg-green-400 hover:bg-green-500 text-lg rounded px-4 py-2 text-white">
+            <button className="bg-green-400 hover:bg-green-500 text-lg rounded px-4 py-2 text-whitecredis">
               Selengkapnya
             </button>
           </Link>
@@ -62,7 +62,7 @@ export const Feature = () => {
             melindungi keamanan data dan kenyamanan layanan finansial Anda.
           </p>
           <Link href="/fitur/KYC">
-            <button className="bg-green-400 hover:bg-green-500 text-lg rounded px-4 py-2 text-white">
+            <button className="bg-green-400 hover:bg-green-500 text-lg rounded px-4 py-2 text-whitecredis">
               Selengkapnya
             </button>
           </Link>
@@ -86,7 +86,7 @@ export const Feature = () => {
             secara terperinci dan bisa di unduh.
           </p>
           <Link href="/fitur/LaporanTerperinci">
-            <button className="bg-green-400 hover:bg-green-500 text-lg rounded px-4 py-2 text-white">
+            <button className="bg-green-400 hover:bg-green-500 text-lg rounded px-4 py-2 text-whitecredis">
               Selengkapnya
             </button>
           </Link>

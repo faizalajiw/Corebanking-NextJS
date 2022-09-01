@@ -12,7 +12,7 @@ export default function FAQ() {
     <>
       <Header />
       <div className="bg-cover bg-center bg-no-repeat bg-banner-pattern py-32 md:py-[10.5rem] px-[31.5]">
-        <div className="text-2xl md:text-4xl font-semibold text-center text-[#F1F1F1]">
+        <div className="text-2xl md:text-4xl font-semibold text-center text-whitecredis">
           Hai, Ada Yang Bisa Kami Bantu?
         </div>
       </div>

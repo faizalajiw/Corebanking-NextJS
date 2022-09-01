@@ -8,12 +8,12 @@ import { Header } from "../../components/Header";
 
 export default function Kontak() {
   return (
-    <div className="bg-white">
+    <div className="bg-whitecredis">
       <Header />
       <div className=" md:flex">
         <div className="my-3 px-3 flex flex-col gap-3 md:flex-1 md:pl-32">
           <div className="container flex flex-col md:flex-none md:w-[700px]">
-            <h1 className=" font-bold text-black text-3xl">Kontak Kami</h1>
+            <h1 className=" font-bold text-blackcredis text-3xl">Kontak Kami</h1>
             <p className=" text-gray-600">
               Anda dapat mengirim pesan kepada tim kami dengan menulis pesan
               anda di bawah
@@ -23,23 +23,23 @@ export default function Kontak() {
             <input
               type="text"
               placeholder="Nama Depan"
-              className="border-none bg-grey px-3 text-gray-400 text-sm h-12 w-full"
+              className="border-none bg-whitecredis px-3 text-gray-400 text-sm h-12 w-full"
             />
             <input
               type="text"
               placeholder="Nama Belakang"
-              className="border-none bg-grey px-3 text-gray-400 text-sm h-12 w-full "
+              className="border-none bg-whitecredis px-3 text-gray-400 text-sm h-12 w-full "
             />
           </div>
           <div className="container flex flex-col justify-center gap-3">
             <input
               type="text"
-              className=" border-none bg-grey px-3 text-gray-400 text-sm h-12 "
+              className=" border-none bg-whitecredis px-3 text-gray-400 text-sm h-12 "
               placeholder="Email"
             />
             <input
               type="text"
-              className=" border-none bg-grey px-3 text-gray-400 text-sm h-12"
+              className=" border-none bg-whitecredis px-3 text-gray-400 text-sm h-12"
               placeholder="No Telp"
             />
             <textarea
@@ -47,12 +47,12 @@ export default function Kontak() {
               id=""
               cols="30"
               rows="8"
-              className=" border-none bg-grey px-3 text-gray-400 text-sm "
+              className=" border-none bg-whitecredis px-3 text-gray-400 text-sm "
               placeholder="Tulis Pesan Anda"
             ></textarea>
           </div>
           <div className="container flex justify-center">
-            <button className="bg-green-400 rounded px-5 py-3 w-32 text-xs text-white md:text-sm md:py-2 md:w-38">
+            <button className="bg-green-400 rounded px-5 py-3 w-32 text-xs text-whitecredis md:text-sm md:py-2 md:w-38">
               Kirim Pesan
             </button>
           </div>
