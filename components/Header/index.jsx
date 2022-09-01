@@ -8,7 +8,8 @@ export const Header = () => {
 
   return (
     <nav className="w-full bg-bluecredis shadow fixed z-50">
-      <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-16">
+      <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-20">
+        {/* Logo */}
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <Link href="/">
@@ -57,18 +58,21 @@ export const Header = () => {
             </div>
           </div>
         </div>
+        {/* End Logo */}
+
+        {/* Menu */}
         <div>
           <div
-            className={`flex-1 justify-self-center pb-3 mt-8 md:px-36 md:block md:pb-0 md:mt-0 ${
+            className={`flex-1 pb-3 mt-8 md:pr-64 md:block md:pb-0 md:mt-0 ${
               navbar ? "block" : "hidden"
             }`}
           >
-            <ul className="place-items-center justify-center space-y-8 md:flex md:space-x-12 md:space-y-0">
+            <ul className="place-items-center justify-center space-y-8 md:flex md:space-x-16 md:space-y-0">
               <li className="text-gray-200 hover:text-green-400">
                 <Link href="/">Home</Link>
               </li>
               <li className="text-gray-200 hover:text-green-400 flex flex-row">
-                <Fitur /> 
+                <Fitur />
               </li>
               <li className="text-gray-200 hover:text-green-400">
                 <Link href="/blog/Blogpage">Blog</Link>
@@ -81,10 +85,11 @@ export const Header = () => {
               </li>
             </ul>
           </div>
-          <div className="absolute bottom-3 md:right-16 md:bottom-4  right-16 border border-green-400 text-green-400 py-2 px-7 rounded-lg hover:bg-green-400 hover:text-whitecredis inline-block">
+          <div className="absolute bottom-3 md:right-32 md:bottom-4 right-16 border border-green-400 text-green-400 py-2 px-7 rounded-lg hover:bg-green-400 hover:text-whitecredis inline-block">
             <button>Daftar</button>
           </div>
         </div>
+        {/* End Menu */}
       </div>
     </nav>
   );

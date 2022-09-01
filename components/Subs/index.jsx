@@ -17,7 +17,7 @@ export const Subs = () => {
           <input
             type="text"
             placeholder="Ketikan emailmu di sini"
-            className="font-semibold text-gray-400 bg-[#F1F1F1] px-5 text-sm rounded h-12 w-72 md:absolute md:w-[460px]"
+            className="font-semibold text-gray-400 bg-whitecredis px-5 text-sm rounded h-12 w-72 md:absolute md:w-[460px]"
           />
           <button className="font-semibold px-5 py-3 md:py-2 rounded bg-green-400 hover:bg-green-500 top-[6px] left-[158px] text-whitecredis text-sm md:absolute md:left-[320px]">
             Berlangganan

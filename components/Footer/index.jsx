@@ -10,7 +10,7 @@ import Link from "next/link";
 export const Footer = () => {
   return (
     <div className=" bg-bluecredis">
-      <div className="bg-bluecredis flex pt-16 flex-col px-10 gap-6 mb-5 md:flex-row md:px-32 ">
+      <div className="bg-bluecredis flex flex-col pt-16 px-10 gap-6 md:gap-0 mb-5 md:flex-row md:px-32 ">
         {/* Logo, Social, Addres */}
         <div className="container text-gray-400 flex flex-col content-center">
           <div className=" container flex justify-start content-center">
@@ -47,9 +47,9 @@ export const Footer = () => {
           </div>
         </div>
         {/* End Logo, Social, Addres */}
-
+        
         {/* Fitur */}
-        <div className="container text-left md:px-10">
+        <div className="container text-left md:pl-24">
           <h6 className=" pb-6 text-whitecredis">Fitur</h6>
           <ul className="text-sm text-gray-400 flex flex-col gap-2 md:gap-4">
             <li className="hover:text-gray-300">
@@ -69,7 +69,7 @@ export const Footer = () => {
         {/* End Fitur */}
 
         {/* Lainnya */}
-        <div className="container text-left md:px-10">
+        <div className="container text-left md:pl-24">
           <h6 className=" pb-6 text-whitecredis">Lainnya</h6>
           <ul className="text-sm text-gray-400 flex flex-col gap-2 md:gap-4">
             <li className="hover:text-gray-300">
@@ -87,7 +87,9 @@ export const Footer = () => {
           </ul>
         </div>
         {/* End Lainnya */}
-        <div className="container text-sm flex-col justify-center text-left">
+
+        {/* Get In */}
+        <div className="container text-left flex-col justify-center md:pl-24">
           <h6 className=" pb-6 text-whitecredis">Get In</h6>
           <div className="container flex content-center justify-center gap-3 flex-col">
             <Link href="/Error">
@@ -102,6 +104,7 @@ export const Footer = () => {
             </Link>
           </div>
         </div>
+        {/* End Get In */}
       </div>
       <hr className=" border-dashed border-gray-400 border-[0.1]" />
       <div className="flex justify-center text-xs text-gray-400 py-5">
