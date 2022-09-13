@@ -14,7 +14,7 @@ export const testimoni = [
     name: "Martin Sin",
     job: "Pekerja Lepas",
     review:
-      "Saya Tidak dapat menjelaskan lagi bagaimana aplikasi ini sangat baik",
+      "Saya Tidak dapat menjelaskan lagi bagaimana aplikasi ini sangat bagus, dari sisi user sangat mudah dipahami",
     star: 4,
   },
   {
