@@ -86,13 +86,13 @@ export const Header = () => {
           {/* End Menu */}
         </div>
       </div>
-      <style jsx global>
+      {/* <style jsx global>
         {`
           .hmm:hover {
-            box-shadow: 0 0 4px green;
+            box-shadow: 0 13 4px green;
           }
         `}
-      </style>
+      </style> */}
     </nav>
   );
 };
